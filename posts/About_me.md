@@ -2,7 +2,6 @@
 title:  "About Me"
 date:   2025-08-08
 categories: About Me
-tag: Personal
 --- 
 
 
