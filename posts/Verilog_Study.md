@@ -271,7 +271,7 @@ pinned: true
     - target of the assignment = register (net은 불가능)
     - initial 혹은 always 의 behavior block 앞에서 Variable 타입의 Signal을 먼저 정의해야 함
 
-## 🖨 과제 모음
+### 🖨 과제 모음
 
 ---
 
