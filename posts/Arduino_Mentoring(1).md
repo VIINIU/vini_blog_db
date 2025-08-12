@@ -27,7 +27,7 @@ CECOM의 '24-2 운영진 첫회의에서 CECOM의 앞으로의 진행 방향에 
 
 ### 회차별 Summary
 --- 
-#### 💻 아두이노 멘토링 1회차 (9/29)
+#### 멘토링 1회차 (9/29)
 - **간단한 자기소개 시간**
 <div class="img-row">
     <img src="/images/AM/AM1.jpg"  width="49%"/>
@@ -99,7 +99,7 @@ CECOM의 '24-2 운영진 첫회의에서 CECOM의 앞으로의 진행 방향에 
  
 <br/> 
 
-#### 💻 아두이노 멘토링 2회차 (10/7)
+#### 2회차 (10/7)
 
 <div class="img-row">
     <img src="/images/AM/AM12.jpg"  width="49%"/>
@@ -136,7 +136,7 @@ CECOM의 '24-2 운영진 첫회의에서 CECOM의 앞으로의 진행 방향에 
     - LED
         - 발광 다이오드
         - 애노드(+)과 캐소드(-)이 존재함.
-        - CODE
+        - **CODE**
             
             ```jsx
             int LED_BUILTIN =2;
@@ -163,7 +163,7 @@ CECOM의 '24-2 운영진 첫회의에서 CECOM의 앞으로의 진행 방향에 
     - 256단계의 아날로그 시그널로 읽혀 esp32에서 정전용량 모니터링 가능
     - 원리
         - ESP32 has 10 capacitive touch-sensing GPIOs. When a capacitive load (such as a human skin) is in close proximity to the GPIO, ESP32 detects a change in capacitance.
-    - CODE
+    - **CODE**
         ```jsx
         int LED = 12;
         
