@@ -48,7 +48,7 @@ pinned: true
 
 - Verilog 구성
     
-    ![image.png](image.png"  width="49%"/>
+    <img src="/images/verilog_study/image.png"  width="49%"/>
     
     - Constrain : 해당 모듈이 silicon에서 차지할 Area, timing, power, testability
     
