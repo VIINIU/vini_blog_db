@@ -48,7 +48,7 @@ pinned: true
 
 - Verilog 구성
     
-    ![image.png](image.jpg"  width="49%"/>
+    ![image.png](image.png"  width="49%"/>
     
     - Constrain : 해당 모듈이 silicon에서 차지할 Area, timing, power, testability
     
@@ -59,7 +59,7 @@ pinned: true
     - comment : `//(한줄)` , `/* (블럭) */`
     - Module interface
         
-        <img src="/images/verilog_study/image%201.jpg"  width="49%"/>
+        <img src="/images/verilog_study/image%201.png"  width="49%"/>
         
         - 두꺼운 화살표 = multibit, 얇은거 = single (당연)
         - out인지 in인지 direction 지정
@@ -73,18 +73,18 @@ pinned: true
         - Structural Style (제일 LOW)
             - physical circuit을 그냥 스트레잇으로 말로 표현
                 
-                <img src="/images/verilog_study/image%202.jpg"  width="49%"/>
+                <img src="/images/verilog_study/image%202.png"  width="49%"/>
                 
         - Dataflow Style
             - input signal의 transformtation으로 output을 묘사
                 
-                <img src="/images/verilog_study/image%203.jpg"  width="49%"/>
+                <img src="/images/verilog_study/image%203.png"  width="49%"/>
                 
         - Behavioral Style
             - 예상되는 행동을 묘사
             - 제일 natural language에 가까워 추상화 정도가 가장 높음
                 
-                <img src="/images/verilog_study/image%204.jpg"  width="49%"/>
+                <img src="/images/verilog_study/image%204.png"  width="49%"/>
                 
 
 - Signals
@@ -99,7 +99,7 @@ pinned: true
         
         - NET signal type
             
-            <img src="/images/verilog_study/image%205.jpg"  width="49%"/>
+            <img src="/images/verilog_study/image%205.png"  width="49%"/>
             
             - wire : single driver nets
             - tri : High impedance가 가능함. tri는 nets with multiple sources
@@ -139,7 +139,7 @@ pinned: true
         **module instantiation flexibility**를 위해서 outside와 포트 연결 시, Rule이 필요 
         모든 포트는 internal part 와 external part가 존재
         
-        <img src="/images/verilog_study/image%206.jpg"  width="49%"/>
+        <img src="/images/verilog_study/image%206.png"  width="49%"/>
         
         - **input port**
             
@@ -215,11 +215,11 @@ pinned: true
         - `==` ,`!=`  값을 비교 → 따라서 X나 Z가 있는 경우 X
     - Bitwise Operators
         
-        <img src="/images/verilog_study/image%207.jpg"  width="49%"/>
+        <img src="/images/verilog_study/image%207.png"  width="49%"/>
         
-        <img src="/images/verilog_study/image%208.jpg"  width="49%"/>
+        <img src="/images/verilog_study/image%208.png"  width="49%"/>
         
-        <img src="/images/verilog_study/image%209.jpg"  width="49%"/>
+        <img src="/images/verilog_study/image%209.png"  width="49%"/>
         
     - Shift Operators
         - `<<` , `>>`
@@ -234,7 +234,7 @@ pinned: true
 - Conditional Assignment
     - 논리합성 가능
         
-        <img src="/images/verilog_study/image%2010.jpg"  width="49%"/>
+        <img src="/images/verilog_study/image%2010.png"  width="49%"/>
         
 - **Delay**
     - #t 와 같은 방식으로 사용
@@ -245,12 +245,12 @@ pinned: true
 
 - Variables (registor)
     
-    <img src="/images/verilog_study/image%2011.jpg"  width="49%"/>
+    <img src="/images/verilog_study/image%2011.png"  width="49%"/>
     
     - signed와 range는 reg타입의 variable에만 사용가능
     - `variable_type`
         
-        <img src="/images/verilog_study/image%2012.jpg"  width="49%"/>
+        <img src="/images/verilog_study/image%2012.png"  width="49%"/>
         
     - `array`
         - [first_address : last_address][first__address : last_address]와 같은 형식으로 표시
@@ -286,9 +286,9 @@ pinned: true
     endmodule
     ```
     
-    <img src="/images/verilog_study/image%2013.jpg"  width="49%"/>
+    <img src="/images/verilog_study/image%2013.png"  width="49%"/>
     
-    <img src="/images/verilog_study/image%2014.jpg"  width="49%"/>
+    <img src="/images/verilog_study/image%2014.png"  width="49%"/>
     
 - **Full adder**
     
@@ -307,9 +307,9 @@ pinned: true
     endmodule
     ```
     
-    <img src="/images/verilog_study/image%2015.jpg"  width="49%"/>
+    <img src="/images/verilog_study/image%2015.png"  width="49%"/>
     
-    <img src="/images/verilog_study/image%2016.jpg"  width="49%"/>
+    <img src="/images/verilog_study/image%2016.png"  width="49%"/>
     
     - 다른 방법
         
@@ -325,7 +325,7 @@ pinned: true
         
 - **8비트 가감산기**
     
-    <img src="/images/verilog_study/image%2017.jpg"  width="49%"/>
+    <img src="/images/verilog_study/image%2017.png"  width="49%"/>
     
     ```verilog
     module test_AdderSubstractor (
@@ -393,11 +393,11 @@ pinned: true
     endmodule
     ```
     
-    <img src="/images/verilog_study/image%2018.jpg"  width="49%"/>
+    <img src="/images/verilog_study/image%2018.png"  width="49%"/>
     
 - **8bit 레지스터**
     
-    <img src="/images/verilog_study/image%2019.jpg"  width="49%"/>
+    <img src="/images/verilog_study/image%2019.png"  width="49%"/>
     
     ```verilog
     module test_8BitRegister(
@@ -420,7 +420,7 @@ pinned: true
     endmodule
     ```
     
-    ![image.png](96d05a99-9e4c-4ba2-91e7-fcff2be046c7.jpg"  width="49%"/>
+    ![image.png](96d05a99-9e4c-4ba2-91e7-fcff2be046c7.png"  width="49%"/>
     
 - **자동 물주기 시스템**
     
@@ -479,26 +479,26 @@ pinned: true
     endmodule
     ```
     
-    <img src="/images/verilog_study/image%2020.jpg"  width="49%"/>
+    <img src="/images/verilog_study/image%2020.png"  width="49%"/>
     
 - **심화문제1 : 지하철 속도 제어장치**
     
-    <img src="/images/verilog_study/image%2021.jpg"  width="49%"/>
+    <img src="/images/verilog_study/image%2021.png"  width="49%"/>
     
-    <img src="/images/verilog_study/image%2022.jpg"  width="49%"/>
+    <img src="/images/verilog_study/image%2022.png"  width="49%"/>
     
     최고속도 120km/h → 7비트 필요. . 지만 7자리는 애매하니 8자리로 진행함
     
     - **생각들**
         - 가능한 스테이터스
             
-            ![실선 속도 90 넘는 경우, 점선 속도 90 안 넘는 경우](image%2023.jpg"  width="49%"/>
+            ![실선 속도 90 넘는 경우, 점선 속도 90 안 넘는 경우](image%2023.png"  width="49%"/>
             
             실선 속도 90 넘는 경우, 점선 속도 90 안 넘는 경우
             
         - **k-map**
             
-            ![image.png](8fa16e56-215f-4fd2-9350-fd048b4c048f.jpg"  width="49%"/>
+            ![image.png](8fa16e56-215f-4fd2-9350-fd048b4c048f.png"  width="49%"/>
             
         - **정리**
             
@@ -649,7 +649,7 @@ pinned: true
             
 - **심화문제2 : 비밀번호 잠금 해제 장치**
     
-    <img src="/images/verilog_study/image%2024.jpg"  width="49%"/>
+    <img src="/images/verilog_study/image%2024.png"  width="49%"/>
     
     - **생각들**
         
@@ -748,10 +748,10 @@ pinned: true
     - 결과
         
         
-        ![blocking 적용시](image%2025.jpg"  width="49%"/>
+        ![blocking 적용시](image%2025.png"  width="49%"/>
         
         blocking 적용시
         
-        ![blocking 미 적용시](image%2026.jpg"  width="49%"/>
+        ![blocking 미 적용시](image%2026.png"  width="49%"/>
         
         blocking 미 적용시
