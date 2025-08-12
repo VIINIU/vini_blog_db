@@ -52,7 +52,7 @@ project: Mentoring
     - 두 라인이 끊여져 있다가 누르는 순간 두 라인이 연결되는 스위치
     - 하드웨어에선 동작의 트리거로 설정하기 좋음!
     
-#### 멘토링 4회차, 5회차
+#### 멘토링 4, 5회차
 
  <div class="img-row">
 <img src="/images/AM/AM25.jpg"  width="49%"/>
