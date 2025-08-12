@@ -5,7 +5,7 @@ author: VINI
 category: ESP32
 project: Mentoring
 overview: true
-thumbnail: lasr.jpg
+thumbnail: AM49.jpg
 ---
 
 ### 회차별 Summary
