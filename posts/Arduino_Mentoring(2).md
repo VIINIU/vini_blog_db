@@ -11,7 +11,7 @@ project: Mentoring
 3회차 이후에는 모두 실습위주의 멘토링이 진행되어 대체로 사용되는 부품에 대해 소개 후 코드를 직접 작성해보는 순서로 멘도링을 진행하였다.
 <br/> 
 
-#### 💻 아두이노 멘토링 3회차
+#### 멘토링 3회차
  <div class="img-row">
 <img src="/images/AM/AM19.jpg"  width="49%"/>
 <img src="/images/AM/AM20.jpg"  width="49%"/>
@@ -52,7 +52,7 @@ project: Mentoring
     - 두 라인이 끊여져 있다가 누르는 순간 두 라인이 연결되는 스위치
     - 하드웨어에선 동작의 트리거로 설정하기 좋음!
     
-#### 💻 아두이노 멘토링 4회차, 5회차
+#### 멘토링 4회차, 5회차
 
  <div class="img-row">
 <img src="/images/AM/AM25.jpg"  width="49%"/>
@@ -96,7 +96,7 @@ project: Mentoring
 - 4-5회차는 중간고사 전, 후 회차라서 간단히 진행
 
 
-#### 💻 아두이노 멘토링 6회차
+#### 멘토링 6회차
 
 - **3D 모델**
 
