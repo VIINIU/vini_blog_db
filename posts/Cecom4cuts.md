@@ -10,16 +10,12 @@ pinned: true
 ---
 
 
-# CECOM4CUT
-
----
-
 | Version | What I Did | Github |
 | --- | --- | --- |
 | 1.0 | **PM, 3D-Modeling, ESP-32 CAM, Bluetooth** | **None** |
 | 2.0 | **PM, ESP32 Trigger** | https://github.com/yymin1022/CECOM4CUT |
 
-## ✔ CECOM4CUT 이란
+### ✔ CECOM4CUT 이란
 
 ---
 
