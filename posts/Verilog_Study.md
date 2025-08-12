@@ -201,6 +201,7 @@ pinned: true
     - literal : 23, 0.1, 2’b01
     - Named Constant : ‘define A 10, parameter A=10;
         - parameter = 로컬, define = 글로벌
+          
 - Signal
 - Function call : f1(s)
 - Bit-Select and Part-Select
@@ -225,12 +226,14 @@ pinned: true
         - `<<` , `>>`
             - ex) regA << 3 을 하면 regA의 비트들이 왼쪽으로 3칸 이동 후 빈곳은 0으로 채워짐
             - `>>>` 의 경우 왼쪽으로 옮기고 0으로 채우되, sign bit는 유지
+        
 - Continous Assignment
     - 논리합성 안 됨
     - assign #3 ChipOut = Switch;
         - #3 ⇒ delay 3
         - ChipOut ⇒ **Target으로 net만 가능**
         - 우변은 암끼나 가능
+          
 - Conditional Assignment
     - 논리합성 가능
         
@@ -420,7 +423,7 @@ pinned: true
     endmodule
     ```
     
-    ![image.png](96d05a99-9e4c-4ba2-91e7-fcff2be046c7.png"  width="49%"/>
+    <img src="/images/verilog_study/96d05a99-9e4c-4ba2-91e7-fcff2be046c7.png"  width="49%"/>
     
 - **자동 물주기 시스템**
     
@@ -492,13 +495,13 @@ pinned: true
     - **생각들**
         - 가능한 스테이터스
             
-            ![실선 속도 90 넘는 경우, 점선 속도 90 안 넘는 경우](image%2023.png"  width="49%"/>
+            <img src="/images/verilog_study/image%2023.png"  width="49%"/>
             
             실선 속도 90 넘는 경우, 점선 속도 90 안 넘는 경우
             
         - **k-map**
             
-            ![image.png](8fa16e56-215f-4fd2-9350-fd048b4c048f.png"  width="49%"/>
+            <img src="/images/verilog_study/8fa16e56-215f-4fd2-9350-fd048b4c048f.png"  width="49%"/>
             
         - **정리**
             
@@ -748,10 +751,10 @@ pinned: true
     - 결과
         
         
-        ![blocking 적용시](image%2025.png"  width="49%"/>
+        <img src="/images/verilog_study/image%2025.png"  width="49%"/>
         
         blocking 적용시
         
-        ![blocking 미 적용시](image%2026.png"  width="49%"/>
+        <img src="/images/verilog_study/image%2026.png"  width="49%"/>
         
         blocking 미 적용시
