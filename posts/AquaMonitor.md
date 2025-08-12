@@ -8,33 +8,22 @@ thumbnail: aquamonitor/1.jpg
 ---
 
 
-# Aquamonitor
-
+### ✔ **Aquamonitor**란
 ---
-
-## ✔ **Aquamonitor**란
-
----
-
-
-![3.jpg](/images/aquamonitor/3.jpg)
-
 - **사용자가 음용수를 섭취할 때 발생하는 무게변화**를 기반으로 **음용수 섭취량을 측정**하고 기록하는
 **조립형 텀블러 / 코스터**
 - **칩셋**과 **직접 디자인한 원형 PCB**만 활용하여 모듈 경량화
 - **Atmega-128p 칩셋**과 **C/C++**
 - **중앙대학교 컴퓨터 하드웨어 동아리 CECOM** 내에서 진행된 프로젝트
 
+
 ### 🏆 수상 실적
-
 ---
-
 - 2024 중앙대학교 공학교육혁신센터 주최 다학제 융합 IoT 캡스톤 디자인 경진대회 아이디어 평가회 우수상 수상 (본선 진출)
 
+
 ### ⚙ 관련 기술
-
 ---
-
 - **HW**
     - **Atmega-128p**, micro loadcell, BlueTooth(BLE), Autodesk Fusion(PCB Layout(former Eagle))
 - **SW**
@@ -42,24 +31,27 @@ thumbnail: aquamonitor/1.jpg
 - **Package Modeling**
     - Autodesk Inventor
 
+
+
 ### 📄 관련 자료
-
 ---
-
 | **Application Github** | https://github.com/yymin1022/AquaMonitor_Android |
 | --- | --- |
 
-![1.jpg](/images/aquamonitor/1.jpg)
 
-![3.jpg](/images/aquamonitor/3.jpg)
+<div class="img-row">
+    <img src="/images/aquamonitor/1.jpg"  width="49%"/>
+    <img src="/images/aquamonitor/3.jpg"  width="49%"/>
+</div>
+<div class="img-row">
+    <img src="/images/aquamonitor/2.jpg"  width="49%"/>
+    <img src="/images/aquamonitor/6.jpg"  width="49%"/>
+</div>
+<div class="img-row">
+    <img src="/images/aquamonitor/4.jpg"  width="49%"/>
+    <img src="/images/aquamonitor/5.jpg"  width="49%"/>
+</div>
 
-![2.jpg](/images/aquamonitor/2.jpg)
-
-![6.jpg](/images/aquamonitor/6.jpg)
-
-![4.jpg](/images/aquamonitor/4.jpg)
-
-![5.jpg](/images/aquamonitor/5.jpg)
 
 ### 결과물 및 한계점
 
@@ -76,7 +68,7 @@ thumbnail: aquamonitor/1.jpg
 함께 제공된 텀블러가 아닌 다른 텀블러와 함께 코스터로 활용하는 모습
 
 **발표 당일 부스 설명 자료**
-
-![20241002_172741.jpg](/images/aquamonitor/20241002_172741.jpg)
-
-![20241002_172747.jpg](/images/aquamonitor/20241002_172747.jpg)
+<div class="img-row">
+    <img src="/images/aquamonitor/20241002_172741.jpg"  width="49%"/>
+    <img src="/images/aquamonitor/20241002_172747.jpg"  width="49%"/>
+</div>
