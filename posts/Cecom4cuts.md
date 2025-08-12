@@ -5,7 +5,7 @@ author: VINI
 category: Raspberry Pi, ESP32
 project: CECOM4CUT
 overview: true
-thumbnail: lasr.jpg
+thumbnail: /images/cecom4cut/cecom4cut_example.jpg
 pinned: true
 ---
 
