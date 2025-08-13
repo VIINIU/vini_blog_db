@@ -30,52 +30,52 @@ pinned : true
 - normalization method
     - [0,1] 사이의 값이 되도록 scale
         
-       <img src="images/yolo/image.png"  width="49%"/>
+       <img src="/images/yolo/image.png"  width="49%"/>
         
-        <img src="images/yolo/Untitled.png"  width="49%"/>
+        <img src="/images/yolo/Untitled.png"  width="49%"/>
         
     - Whitening
         - data가 zeromean(**μ=0**) and unit variance(**σ=1**)를 갖도록 scale → 이러면 구모양 분포가 됨
             
-            <img src="images/yolo/image%201.png"  width="49%"/>
+            <img src="/images/yolo/image%201.png"  width="49%"/>
             
-            <img src="images/yolo/Untitled%201.png"  width="49%"/>
+            <img src="/images/yolo/Untitled%201.png"  width="49%"/>
             
 
 ### Maxpooling
 
-<img src="images/yolo/image%202.png"  width="49%"/>
+<img src="/images/yolo/image%202.png"  width="49%"/>
 
 - conv layer에서 이미지 사이즈를 줄여서 선명하고 중요한 feature만 남겨서 강조하는 것
     - 각 칸의 가장 큰 값을 남김!
 - 보통 2x2로 화면 전역에 적용
 - stride 2 → 좌우로 몇칸 뛸지 결정
 
-<img src="images/yolo/Untitled%202.png"  width="49%"/>
+<img src="/images/yolo/Untitled%202.png"  width="49%"/>
 
 Ex) Max pooling on 4 x 4 Output Activation (Pooling window = 2 x 2
 
 - Max-Pooling after Convolution - Example
 
-<img src="images/yolo/Untitled%203.png"  width="49%"/>
+<img src="/images/yolo/Untitled%203.png"  width="49%"/>
 
 Layer 0→1
 
-<img src="images/yolo/Untitled%204.png"  width="49%"/>
+<img src="/images/yolo/Untitled%204.png"  width="49%"/>
 
  Layer 4→5
 
-<img src="images/yolo/Untitled%205.png"  width="49%"/>
+<img src="/images/yolo/Untitled%205.png"  width="49%"/>
 
  Layer 2→3
 
-<img src="images/yolo/Untitled%206.png"  width="49%"/>
+<img src="/images/yolo/Untitled%206.png"  width="49%"/>
 
 ### Activation
 
 - ReLU
     
-    <img src="images/yolo/Untitled%207.png"  width="49%"/>
+    <img src="/images/yolo/Untitled%207.png"  width="49%"/>
     
     - ReLU는 negative에 대해서 모두 0
         
@@ -92,7 +92,7 @@ Layer 0→1
 
 - **Unified Detection**
     
-    <img src="images/yolo/Untitled%208.png"  width="49%"/>
+    <img src="/images/yolo/Untitled%208.png"  width="49%"/>
     
     Redmon, J. et al., 2016. You Only Look Once: Unified, Real-Time Object Detection. In *2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*. pp. 779–788.
     
@@ -106,7 +106,7 @@ Layer 0→1
                 
             - Calculate the **class-specific confidence score for each box**
                 
-                <img src="images/yolo/Untitled%209.png"  width="49%"/>
+                <img src="/images/yolo/Untitled%209.png"  width="49%"/>
                 
 
 ### Tiny-YOLO
@@ -123,9 +123,9 @@ Layer 0→1
     
     2) **tiny-yolo-aix2024.weights** (3354 KB): 32-bit floating point parameters
     
-    <img src="images/yolo/Untitled%2010.png"  width="49%"/>
+    <img src="/images/yolo/Untitled%2010.png"  width="49%"/>
     
-    <img src="images/yolo/Untitled%2011.png"  width="49%"/>
+    <img src="/images/yolo/Untitled%2011.png"  width="49%"/>
     
     - Total: **22 layers**
         - **18** **Convolutional** layers
@@ -158,7 +158,7 @@ Layer 0→1
     
      ****The configuration file stores the **model’s structure**. You can find some following important parameters
     
-    <img src="images/yolo/Untitled%2012.png"  width="49%"/>
+    <img src="/images/yolo/Untitled%2012.png"  width="49%"/>
     
     - **width = 256, height = 256, channel = 3**
         
@@ -167,7 +167,7 @@ Layer 0→1
     - **[convolutional]**
         
         
-        <img src="images/yolo/Untitled%2013.png"  width="49%"/>
+        <img src="/images/yolo/Untitled%2013.png"  width="49%"/>
         
         - Each convolutional (conv) layer is started with the tag. It is defined by the **number of filters, the filter size, stride, padding, and activation.**
         
@@ -180,12 +180,12 @@ Layer 0→1
         
         <Convolution Layer overview>
         
-        <img src="images/yolo/Untitled%2014.png"  width="49%"/>
+        <img src="/images/yolo/Untitled%2014.png"  width="49%"/>
         
     
     - **[maxpool]**
     
-    <img src="images/yolo/Untitled%2015.png"  width="49%"/>
+    <img src="/images/yolo/Untitled%2015.png"  width="49%"/>
     
     - size(of the pooling window) = 2, stride=2
         
@@ -194,7 +194,7 @@ Layer 0→1
     
     - Ex) 64x64x64 feature map ⇒ 32x32x64 feature map
     
-    <img src="images/yolo/Untitled%2016.png"  width="49%"/>
+    <img src="/images/yolo/Untitled%2016.png"  width="49%"/>
     
     - Max Pooling layer in code example( @ “C:\skeleton\src\additionally.c”)
         
@@ -257,7 +257,7 @@ Layer 0→1
     - **[route]**
         
         
-        <img src="images/yolo/Untitled%2017.png"  width="49%"/>
+        <img src="/images/yolo/Untitled%2017.png"  width="49%"/>
         
         - In the Tiny YOLO architecture, the "route" layer is used to **concatenate the feature maps.**
         - It takes one or more previous layer outputs and concatenates them along the depth dimension (channel axis).
@@ -273,7 +273,7 @@ Layer 0→1
             
             (For example, “layers = **-1, -2**” means to concatenate the outputs from **“one” and “two” layers far from the routing layer**)
             
-            <img src="images/yolo/Untitled%2018.png"  width="49%"/>
+            <img src="/images/yolo/Untitled%2018.png"  width="49%"/>
             
         - If A is **positive**, it indicates the **“absolute”** index of the previous layer.
             
@@ -281,20 +281,20 @@ Layer 0→1
             
         - **Note that you must check the order of the concatenated layers**.
             
-           <img src="images/yolo/routing.jpg"  width="49%"/>
+           <img src="/images/yolo/routing.jpg"  width="49%"/>
             
             In routing layer 5, 13, 21, only a subset of the feature map is used when performing the routing
             
     
     - **[upsample]**
     
-    <img src="images/yolo/Untitled%2019.png"  width="49%"/>
+    <img src="/images/yolo/Untitled%2019.png"  width="49%"/>
     
     - Enlarges a convolutional output to **restore the size of the feature map,** which is shrinked during the Max Pooling, **to the original size of the image**
         - ex) 8 x 8 x 64 ⇒ 16 x 16 x 64
         
     
-    <img src="images/yolo/Untitled%2020.png"  width="49%"/>
+    <img src="/images/yolo/Untitled%2020.png"  width="49%"/>
     
     🧐 Still not clear? Go the link below! 
     
@@ -302,9 +302,9 @@ Layer 0→1
     
     - **[yolo]**
     
-    <img src="images/yolo/Untitled%2021.png"  width="49%"/>
+    <img src="/images/yolo/Untitled%2021.png"  width="49%"/>
     
-    <img src="images/yolo/Untitled%2022.png"  width="49%"/>
+    <img src="/images/yolo/Untitled%2022.png"  width="49%"/>
     
     - Core of YOLO detection system where the **actual detection and the calculation of the loss are performed**
     - Hyperparameters(click to see the details)
@@ -325,7 +325,7 @@ Layer 0→1
         - ex) -2면 두단계 전
 - **unsample**
     
-    <img src="images/yolo/Untitled%2020.png"  width="49%"/>
+    <img src="/images/yolo/Untitled%2020.png"  width="49%"/>
     
     - conv 출력을 확대해서 MAXpooling하면서 축소된 맵을 원래 크기로 복원
 
@@ -336,7 +336,7 @@ Layer 0→1
 - 각 가중치가 어떤 레이어에 속하는지는 파일 내에서 직접 확인할 수 없음 → **데이터 저장 형식을 이해해야 함**.
 - 참고하쇼
     
-    <img src="images/yolo/Untitled%2023.png"  width="49%"/>
+    <img src="/images/yolo/Untitled%2023.png"  width="49%"/>
     
     Weights represented in hex 
     
@@ -348,9 +348,9 @@ Layer 0→1
     
     : Bias → (Scales, Mean, Variance)→ Weights
     
-    <img src="images/yolo/Untitled%2024.png"  width="49%"/>
+    <img src="/images/yolo/Untitled%2024.png"  width="49%"/>
     
-   <img src="images/yolo/Untitled%2025.png"  width="49%"/>
+   <img src="/images/yolo/Untitled%2025.png"  width="49%"/>
     
     9 pixels for R, G, B
     
@@ -393,7 +393,7 @@ Layer 0→1
             
         - 4 bytes for Pixel9
     
-    <img src="images/yolo/Untitled%2026.png"  width="49%"/>
+    <img src="/images/yolo/Untitled%2026.png"  width="49%"/>
     
     [https://blog.paperspace.com/how-to-implement-a-yolo-v3-object-detector-from-scratch-in-pytorch-part-3/](https://blog.paperspace.com/how-to-implement-a-yolo-v3-object-detector-from-scratch-in-pytorch-part-3/)
     
@@ -401,7 +401,7 @@ Layer 0→1
     
     The first 5 int32 values are header information(5 x 4Bytes(int32) = **20 Bytes**)
     
-    <img src="images/yolo/Untitled%2027.png"  width="49%"/>
+    <img src="/images/yolo/Untitled%2027.png"  width="49%"/>
     
         1) **Major version number** (4bytes: 0x00 0x00 0x00 0x00)
         2) **Minor Version Number**(4bytes: 0x02 0x00 0x00 0x00)
