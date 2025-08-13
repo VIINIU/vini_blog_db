@@ -11,7 +11,7 @@ pinned: true
 
 ---
 
-- **‘25 Summer Semester (2025.03 - 2025.09)**
+- **‘25 Spring Semester (2025.03 - 2025.09)**
 - 중앙대학교 컴퓨터 하드웨어 중앙동아리 CECOM 내부에서 진행된 Group Study
 - Verilog 기초 문법, 예제를 풀고 간단한 연산을 하는 CPU 구상까지 진행
 
