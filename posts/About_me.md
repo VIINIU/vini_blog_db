@@ -5,59 +5,64 @@ category: About Me
 --- 
 
 
-### 🎓 Education & Clubs
+### 🎓 Education
 
-- **중앙대학교 창의ICT공학대학 전자전기공학 학부생 (2022.03 - Present)**
-- **중앙대학교 하드웨어 컴퓨터 중앙동아리 CECOM 부원 (2023.09 - Present)**
-- **중앙대학교 하드웨어 컴퓨터 중앙동아리 부회장 (2024.01 - 2024.12)**
-- **GDGoC Chung-Ang Univ. 멤버 (2025.09 - Present)**
+- 중앙대학교 창의ICT공과대학 전자전기공학부 학부생 (2022.03 - Present)
 
-### 📜 Certificates
 
-- **리눅스마스터 2급 (2025.01)**
-  - **KAIT 한국정보통신진흥협회 (공인 민간자격증)**
+### ⚙ Clubs
+
+- 중앙대학교 하드웨어 컴퓨터 중앙동아리 CECOM 부원 (2023.09 - Present)
+- 중앙대학교 하드웨어 컴퓨터 중앙동아리 부회장 (2024.01 - 2024.12)
+- GDGoC Chung-Ang Univ. 멤버 (2025.09 - Present)
 
 ### 💼 Experiences
 
 - **(주) 시루정보**
   - **2025.03 - Present | 마케팅팀 계약직**
-  - **Description**
+  - Description
     - 단순 사무보조로 입사하여 업무 환경 효율화를 위해 Python 기반의 앱· 웹 크롤링 후 데이터 재구성
     - 자동 입력 시스템 기획 · 개발 및 유지, 보수
 
 - **미래탐구 대치 고1·2관**
   - **2022.07 - 2025.02 | 수학 보조강사**
-  - **Description**
+  - Description
     - Google spreadsheet 효율성 개선
     - Adobe Illustrator를 활용한 문제 이미지 제작
     - 고1·2 대상 클리닉(질의응답) 담당
     - 한글 프로그램을 이용한 교재 편집 및 오답노트 제작
     - 동료 보조강사를 위한 메뉴얼 제작
 
+### 📜 Certificates
+
+- **리눅스마스터 2급**
+  - 2025.01 취득
+  - KAIT 한국정보통신진흥협회 (공인 민간자격증)
+
 ### 📁 Projects
 
 - **[🔗Aquamonitor](https://viniu.info/post/AquaMonitor)**
   - **2024.05 - 2024.10 | PCB 레이아웃, 하드웨어 개발, 3D 모델링**
-  - **Description**
+  - Description
     - 사용자가 음용수를 섭취할 때 발생하는 무게변화를 기반으로 음용수 섭취량을 측정하고 기록하는 서비스
     - PCB 제작을 통해 모듈 무게 경량화
     - 2024 교내 공학교육혁신센터 주최 다학제 융합 IoT 캡스톤 디자인 경진대회 아이디어 평가회 우수상
 
 - **[🔗CECOM4CUT](https://viniu.info/post/Cecom4cuts)**
   - **2023.09 - 2024.03 | PM, 하드웨어 개발**
-  - **Description**
+  - Description
     - ESP32를 이용하여 사진 활영 후 JPEG to 1bit BMP으로 디더링 및 형식 변환, 블루투스 Thermal Printer(영수증 출력기)에 연결하여 사진을 뽑아주는 프로젝트
     - ESP32를 활용하여 버전 1 개발 후, Raspberry PI 활용 버전 2 개발
 
 - **[🔗나비잠](https://viniu.info/post/Navizam)**
   - **2023.05 - 2023.10 | 하드웨어 개발 (UWB 비콘), APP 개발 일부**
-  - **Description**
+  - Description
     - UWB 비콘을 활용한 실내에서의 아이 움직임 트래킹, 분리 수면 시 질식사 방지를 위한 생체 신호 수집 · 분석
     - 2023 교내 공학교육혁신센터 주최 다학제 융합 IoT 캡스톤 디자인 경진대회 아이디어 평가회 우수상
 
 - **비 IoT 가전제품작동완료 알리미**
   - **2022.09 - 2022.12 | 하드웨어 개발**
-  - **Description**
+  - Description
     - 공학설계입문 수업의 일환으로 진행된 아두이노 프로젝트로 자기홀센서를 활용하여 자기량을 측정하여 작동완료를 감지, 사용자에게 알림
 
 ### 📚 Studies & Mentoring
@@ -86,7 +91,7 @@ category: About Me
   - [🔗Aquamonitor](https://viniu.info/post/AquaMonitor) PCB Layout Design
 
 - **Blender**
-  - [🔗인체 상반 모형 모델링](https://viniu.info/post/Ssomaek)
+  - 인체 상반 모형 모델링
 
 - **Adobe Illustrator**
   - 동아리 홍보물 제작 및 판촉물 제작
