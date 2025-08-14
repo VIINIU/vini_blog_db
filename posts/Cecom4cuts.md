@@ -2,7 +2,7 @@
 title: CECOM4CUT
 date: 2024-10-13
 author: VINI
-category: Raspberry Pi, ESP32, Embeded
+category: Raspberry Pi, ESP32, IoT
 project: CECOM4CUT
 overview: true
 thumbnail: /cecom4cut/cecom4cut_example.jpg
