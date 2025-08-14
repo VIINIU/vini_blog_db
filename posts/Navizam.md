@@ -1,7 +1,7 @@
 ---
 title: 분리수면 매니저 나비잠
 date: 2023-10-22
-category: ESP32
+category: ESP32, IoT
 project: Navizam
 overview: true
 thumbnail: navizam/20231005_174337.jpg
