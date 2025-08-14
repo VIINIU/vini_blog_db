@@ -1,7 +1,7 @@
 ---
 title: Aquamonitor
 date: 2024-10-13
-category: ESP32
+category: ESP32, IoT
 project: Aquamonitor
 overview: true
 thumbnail: aquamonitor/1.jpg
