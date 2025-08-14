@@ -1,6 +1,6 @@
 ---
 title: 쏘맥제조기 프로젝트
-date: 2024-10-13
+date: 2025-02-28
 category: Blender
 project: 쏘맥제조기
 overview: False
