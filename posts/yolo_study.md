@@ -2,6 +2,7 @@
 title : YOLO Study
 date : 2025-08-13
 category : YOLO, CNN
+project: Study
 pinned : true
 ---
 
