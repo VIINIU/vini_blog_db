@@ -2,9 +2,10 @@
 title:  "About Me"
 date:   2025-08-08
 category: About Me
+thumbnail: sugar.webp
 --- 
 
-<span style="display:inline-flex; gap:10%; align-items:center;">
+<span style="display:inline-flex; gap:5%; align-items:center;">
   <img src="/images/sugar.webp" width="30%" style="border-radius:100%; margin-right:8px;">
   안녕하세요! 만나서 반갑습니다.<br/> 
   저는 다양한 일을 시도하길 좋아하는 서유빈입니다. <br/> 
