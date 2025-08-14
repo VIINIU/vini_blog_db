@@ -6,7 +6,7 @@ thumbnail: sugar.webp
 --- 
 
 <span style="display:inline-flex; align-items:center;">
-  <img src="/images/sugar.webp" width="40%" style="border-radius:100%;"> 
+  <img src="/images/sugar.webp" width="30%" style="border-radius:100%;"> 
   안녕하세요! 만나서 반갑습니다. <br/> 
   저는 다양한 일을 시도하길 좋아하는 서유빈입니다. <br/> 
   이 블로그는 제가 하는 공부, 프로젝트, 개인 일상이 모두 들어있는 저의 외부 기억장치💾 입니다. 제가 궁금하시다면 왼쪽 바에서 Resume를 다운 받아주시면 감사하겠습니다٩(๑˃̵ᴗ˂̵๑)۶
