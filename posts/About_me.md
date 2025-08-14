@@ -4,19 +4,28 @@ date:   2025-08-08
 category: About Me
 --- 
 
+<span style="display:inline-flex; gap:10%; align-items:center;">
+  <img src="/images/sugar.webp" width="30%" style="border-radius:100%; margin-right:8px;">
+  안녕하세요! 만나서 반갑습니다.<br/> 
+  저는 다양한 일을 시도하길 좋아하는 서유빈입니다. <br/> 
+  이 블로그는 제가 하는 공부, 프로젝트, 개인 일상이 모두 들어있는 저의 외부 기억장치💾 입니다. <br/> 
+  제가 궁금하시다면 왼쪽 바에서 Resume를 다운 받아주시면 감사하겠습니다٩(๑˃̵ᴗ˂̵๑)۶
+</span>
 
 ### 🎓 Education
-
+---
 - 중앙대학교 창의ICT공과대학 전자전기공학부 학부생 (2022.03 - Present)
 
 
 ### ⚙ Clubs
+---
 
 - 중앙대학교 하드웨어 컴퓨터 중앙동아리 CECOM 부원 (2023.09 - Present)
 - 중앙대학교 하드웨어 컴퓨터 중앙동아리 부회장 (2024.01 - 2024.12)
 - GDGoC Chung-Ang Univ. 멤버 (2025.09 - Present)
 
 ### 💼 Experiences
+---
 
 - **(주) 시루정보**
   - **2025.03 - Present | 마케팅팀 계약직**
@@ -34,13 +43,13 @@ category: About Me
     - 동료 보조강사를 위한 메뉴얼 제작
 
 ### 📜 Certificates
-
+---
 - **리눅스마스터 2급**
   - 2025.01 취득
   - KAIT 한국정보통신진흥협회 (공인 민간자격증)
 
 ### 📁 Projects
-
+---
 - **[🔗Aquamonitor](https://viniu.info/post/AquaMonitor)**
   - **2024.05 - 2024.10 | PCB 레이아웃, 하드웨어 개발, 3D 모델링**
   - Description
@@ -66,7 +75,7 @@ category: About Me
     - 공학설계입문 수업의 일환으로 진행된 아두이노 프로젝트로 자기홀센서를 활용하여 자기량을 측정하여 작동완료를 감지, 사용자에게 알림
 
 ### 📚 Studies & Mentoring
-
+---
 - **Verilog 스터디 (2025.03 - 2025.09)**
   - 1bit-registor부터 간단한 ALU를 설계, 나아가 몇가지 간단한 연산을 수행하는 CPU를 구상
 
@@ -74,7 +83,7 @@ category: About Me
   - 동아리에서 진행한 ESP32 활용 방법에 관한 멘토링에서 멘토를 맡아 토이프로젝트 형식의 멘토링을 진행
 
 ### 🛠 Tools, Languages & OS
-
+---
 - **C, C++**
   - ESP32 기반 프로젝트([🔗Aquamonitor](https://viniu.info/post/AquaMonitor), [🔗나비잠](https://viniu.info/post/Navizam), 비 IoT 가전제품작동완료 알리미, [🔗CECOM4CUT](https://viniu.info/post/Cecom4cuts))
 
@@ -91,7 +100,7 @@ category: About Me
   - [🔗Aquamonitor](https://viniu.info/post/AquaMonitor) PCB Layout Design
 
 - **Blender**
-  - 인체 상반 모형 모델링
+  - [🔗인체 상반 모형 모델링](https://viniu.info/post/Ssomaeck)
 
 - **Adobe Illustrator**
   - 동아리 홍보물 제작 및 판촉물 제작
