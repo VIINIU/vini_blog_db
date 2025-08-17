@@ -4,7 +4,6 @@ date: 2024-10-13
 author: VINI
 category: ESP32
 project: Mentoring
-overview: true
 thumbnail: AM49.jpg
 ---
 
