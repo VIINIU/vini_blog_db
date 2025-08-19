@@ -100,7 +100,7 @@ Python은 거의 처음 써보는 상황이었고, C/C++ 이외의 개발 경험
 
     <div class="img-row">
         <img src = "/images/appium/inspector1.jpg" width = 32% >
-        <img src = "/images/inspector2.jpg" width = 65% >
+        <img src = "/images/appium/inspector2.jpg" width = 65% >
     <div>
 
     짜잔... 
