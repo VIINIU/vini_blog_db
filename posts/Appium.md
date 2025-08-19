@@ -98,14 +98,13 @@ Python은 거의 처음 써보는 상황이었고, C/C++ 이외의 개발 경험
     }
     ```
 
-    <div class="img-row">
-        <img src = "/images/appium/inspector1.jpg" width = 32% >
-        <img src = "/images/appium/inspector2.jpg" width = 65% >
-    <div>
+<div class="img-row">
+    <img src = "/images/appium/inspector1.jpg" width = 32% />
+    <img src = "/images/appium/inspector2.jpg" width = 65% />
+<div>
 
-    짜잔... 
-    
-    휴대전화 화면에서 요소를 클릭하면 우측의 Selected Element에서 내가 원하는 요소의 XPATH를 확인할 수 있다!!
+짜잔... 
+휴대전화 화면에서 요소를 클릭하면 우측의 Selected Element에서 내가 원하는 요소의 XPATH를 확인할 수 있다!!
 
 
 ### 자동화 시작하기
