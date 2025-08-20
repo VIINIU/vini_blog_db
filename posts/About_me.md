@@ -88,7 +88,7 @@ thumbnail: sugar.webp
   - ESP32 기반 프로젝트([🔗Aquamonitor](https://viniu.info/post/AquaMonitor), [🔗나비잠](https://viniu.info/post/Navizam), 비 IoT 가전제품작동완료 알리미, [🔗CECOM4CUT](https://viniu.info/post/Cecom4cuts))
 
 - **Python**
-  - 앱 · 웹 크롤링 및 업무자동화 프로그램 기획 · 개발 · 배포 · 유지보수
+  - 앱 · 웹 크롤링 및 업무자동화 프로그램 기획 · 개발 · 배포 · 유지보수 [🔗관련 게시글](https://viniu.info/post/Appium)
 
 - **Linux**
   - Raspberry PI 활용
