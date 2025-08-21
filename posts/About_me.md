@@ -20,8 +20,8 @@ thumbnail: sugar.webp
 ### ⚙ Clubs
 ---
 
-- 중앙대학교 하드웨어 컴퓨터 중앙동아리 CECOM 부원 (2023.09 - Present)
-- 중앙대학교 하드웨어 컴퓨터 중앙동아리 부회장 (2024.01 - 2024.12)
+- [중앙대학교 컴퓨터 하드웨어 중앙동아리 CECOM](https://cecom.dev) 부회장 (2024.01 - 2024.12)
+- [중앙대학교 컴퓨터 하드웨어 중앙동아리 CECOM](https://cecom.dev) 홍보부원 (2023.09 - Present)
 - GDGoC Chung-Ang Univ. 멤버 (2025.09 - Present)
 
 ### 💼 Experiences
@@ -80,7 +80,7 @@ thumbnail: sugar.webp
   - 1bit-registor부터 간단한 ALU를 설계, 나아가 몇가지 간단한 연산을 수행하는 CPU를 구상
 
 - **ESP32 멘토링 (2024.09 - 2024.12 | 멘토)**
-  - 동아리에서 진행한 ESP32 활용 방법에 관한 멘토링에서 멘토를 맡아 토이프로젝트 형식의 멘토링을 진행
+  - 동아리(CECOM)에서 진행한 ESP32 활용 방법에 관한 멘토링에서 멘토를 맡아 토이프로젝트 형식의 멘토링을 진행
 
 ### 🛠 Tools, Languages & OS
 ---
