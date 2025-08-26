@@ -106,5 +106,5 @@ thumbnail: sugar.webp
   - 동아리 홍보물 제작 및 판촉물 제작
 
 - **Figma**
-  - [🔗개인 블로그](https://viniu.info) 및 [🔗중앙대학교 컴퓨터 하드웨어 중앙동아리 홈페이지](https://cecom.dev) 경험
+  - [🔗개인 블로그](https://viniu.info) 및 [🔗중앙대학교 컴퓨터 하드웨어 중앙동아리 홈페이지](https://cecom.dev) 디자인
   - [🔗Aquamonitor 모바일 앱](https://viniu.info/post/AquaMonitor), [🔗나비잠 모바일 앱](https://viniu.info/post/Navizam) 디자인
