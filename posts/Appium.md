@@ -1,5 +1,5 @@
 ---
-title:  "Appium 활용 앱 조작 자동화하기"
+title:  "Appium, Python 활용 앱 조작 자동화하기"
 date:   2025-08-19
 category: Python, Appium
 project: APP_Crawler
