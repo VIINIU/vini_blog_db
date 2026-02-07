@@ -7,11 +7,7 @@ pinned: true
 --- 
 
 
-## 💬 인턴 수기
-
----
-
-### ✔ 세부 사항
+## 💬 Telechips TOPST 부서 인턴쉽 수기
 
 ---
 
