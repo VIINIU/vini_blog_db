@@ -21,14 +21,26 @@ thumbnail: sugar.webp
 ---
 
 - [중앙대학교 컴퓨터 하드웨어 중앙동아리 CECOM](https://cecom.dev) 부회장 (2024.01 - 2024.12)
-- [중앙대학교 컴퓨터 하드웨어 중앙동아리 CECOM](https://cecom.dev) 홍보부원 (2023.09 - Present)
+- [중앙대학교 컴퓨터 하드웨어 중앙동아리 CECOM](https://cecom.dev) 홍보부원 (2023.09 - 2025.03)
 - GDGoC Chung-Ang Univ. 멤버 (2025.09 - Present)
 
 ### 💼 Experiences
 ---
 
+- **Telechips**
+  - **2025.01 | TOPST 인턴**
+  - Description
+    - Telechips사의 Topst 보드 3종 (AI-G, D3-G, VCP-G)을 브링업
+    - YOLO v8, OpenCV 모델을 올려 자율주행하는 Scale Car를 제작하는 프로젝트를 진행 
+
 - **(주) 시루정보**
-  - **2025.03 - Present | 마케팅팀 계약직**
+  - **2025.09 - 2025.12 | 서울대학교 선우경 교수님 학부생 연구인턴**
+  - Description
+    - 차세대 반도체 혁신융합대학 학점교류로 서울대학교 선우경 교수님 학부생 연구인턴 프로그램에 참여
+    - FPGA 기반의 SNN을 활용 KWS 시스템 구성
+
+- **(주) 시루정보**
+  - **2025.03 - 2025.09 | 마케팅팀 계약직**
   - Description
     - 단순 사무보조로 입사하여 업무 환경 효율화를 위해 Python 기반의 앱· 웹 크롤링 후 데이터 재구성
     - 자동 입력 시스템 기획 · 개발 및 유지, 보수
