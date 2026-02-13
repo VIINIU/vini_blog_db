@@ -241,6 +241,5 @@ BT RC카의 코드 스터디를 내가 먼저 탐구하고 다른 인턴들에�
 <div class="img-row">
     <img src="/images/telechips_internship/hoisick.png"  width="33%"/>
     <img src="/images/telechips_internship/us.png"  width="33%"/>
-    <img src="/images/telechips_internship/insaeng.png"  width="33%"/>
+    <img src="/images/telechips_internship/last.png"  width="33%"/>
 </div>
-<img src="/images/telechips_internship/last.png"  width="99%"/>
