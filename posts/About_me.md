@@ -7,116 +7,91 @@ thumbnail: sugar.webp
 
 <span style="display:inline-flex; align-items:center;">
   <img src="/images/sugar.webp" width="30%" style="border-radius:100%;"> 
-  안녕하세요! 만나서 반갑습니다. <br/> 
-  저는 다양한 일을 시도하길 좋아하는 서유빈입니다. <br/> 
-  이 블로그는 제가 하는 공부, 프로젝트, 개인 일상이 모두 들어있는 저의 외부 기억장치💾 입니다. 제가 궁금하시다면 왼쪽 바에서 Resume를 다운 받아주시면 감사하겠습니다٩(๑˃̵ᴗ˂̵๑)۶
+  Hello! Nice to meet you. <br/> 
+  I am Yubin Seo, an undergraduate student who loves taking on new challenges. <br/> 
+  This blog is my external memory 💾 documenting my studies, projects, and daily life. If you'd like to know more about my professional background, please download my Resume from the sidebar ٩(๑˃̵ᴗ˂̵๑)۶<br/><br/>
 </span>
 
 ### 🎓 Education
 ---
-- 중앙대학교 창의ICT공과대학 전자전기공학부 학부생 (2022.03 - Present)
+- **Chung-Ang University** - School of Electrical and Electronics Engineering (B.S.)
+  - Mar 2022 – Feb 2027 (Expected) | Seoul, Korea
 
-
-### ⚙ Clubs
+### 💼 Work & Research Experience
 ---
-
-- [중앙대학교 컴퓨터 하드웨어 중앙동아리 CECOM](https://cecom.dev) 부회장 (2024.01 - 2024.12)
-- [중앙대학교 컴퓨터 하드웨어 중앙동아리 CECOM](https://cecom.dev) 홍보부원 (2023.09 - 2025.03)
-- GDGoC Chung-Ang Univ. 멤버 (2025.09 - Present)
-
-### 💼 Experiences
----
-
-- **Telechips**
-  - **2025.01 | TOPST 인턴**
-  - Description
-    - Telechips사의 Topst 보드 3종 (AI-G, D3-G, VCP-G)을 브링업
-    - YOLO v8, OpenCV 모델을 올려 자율주행하는 Scale Car를 제작하는 프로젝트를 진행 
-
-- **(주) 시루정보**
-  - **2025.09 - 2025.12 | 서울대학교 선우경 교수님 학부생 연구인턴**
-  - Description
-    - 차세대 반도체 혁신융합대학 학점교류로 서울대학교 선우경 교수님 학부생 연구인턴 프로그램에 참여
-    - FPGA 기반의 SNN을 활용 KWS 시스템 구성
-
-- **(주) 시루정보**
-  - **2025.03 - 2025.09 | 마케팅팀 계약직**
-  - Description
-    - 단순 사무보조로 입사하여 업무 환경 효율화를 위해 Python 기반의 앱· 웹 크롤링 후 데이터 재구성
-    - 자동 입력 시스템 기획 · 개발 및 유지, 보수
-
-- **미래탐구 대치 고1·2관**
-  - **2022.07 - 2025.02 | 수학 보조강사**
-  - Description
-    - Google spreadsheet 효율성 개선
-    - Adobe Illustrator를 활용한 문제 이미지 제작
-    - 고1·2 대상 클리닉(질의응답) 담당
-    - 한글 프로그램을 이용한 교재 편집 및 오답노트 제작
-    - 동료 보조강사를 위한 메뉴얼 제작
-
-### 📜 Certificates
----
-- **리눅스마스터 2급**
-  - 2025.01 취득
-  - KAIT 한국정보통신진흥협회 (공인 민간자격증)
+- **Telechips | Undergraduate Intern** (Jan 2026)
+  - Brought up 3 types of Topst boards (AI-G, D3-G, VCP-G).
+  - Developed an autonomous Scale Car utilizing YOLOv8 and OpenCV models for real-time object detection and lane following algorithms.
+  - Optimized AI model inference on the Topst NPU board.
+- **Seoul National University | Undergraduate Research Intern** (Sep 2025 – Dec 2025)
+  - Participated in the Next-generation Semiconductor Convergence University credit exchange program.
+  - Designed and implemented a low-power FPGA-based SNN (Spiking Neural Network) Wake-Word Spotting System under the supervision of Prof. Wookyung Sun.
+- **Siru Information | Marketing Team Contractor** (Mar 2025 – Sep 2025)
+  - Started as an office assistant and proactively improved workflow efficiency.
+  - Planned, developed, and maintained Python-based app/web crawling tools to restructure data and automate data entry systems.
 
 ### 📁 Projects
 ---
-- **[🔗Aquamonitor](https://viniu.info/post/AquaMonitor)**
-  - **2024.05 - 2024.10 | PCB 레이아웃, 하드웨어 개발, 3D 모델링**
-  - Description
-    - 사용자가 음용수를 섭취할 때 발생하는 무게변화를 기반으로 음용수 섭취량을 측정하고 기록하는 서비스
-    - PCB 제작을 통해 모듈 무게 경량화
-    - 2024 교내 공학교육혁신센터 주최 다학제 융합 IoT 캡스톤 디자인 경진대회 아이디어 평가회 우수상
+- **[🔗FPGA-based SNN Wake-Word Spotting System](https://viniu.info/post/snn_wws)** (Sep 2025 – Dec 2025)
+  - *Role*: Individual Project
+  - Designed and implemented a low-power wake-up call detection system using SNN architecture on an FPGA.
+  - Awarded 3rd Place (Encouragement Award) at the Semiconductor Innovation Festival (SIF 2026).
+- **[🔗Aquamonitor: Beverage Intake Tracker](https://viniu.info/post/AquaMonitor)** (May 2024 – Oct 2024)
+  - *Role*: PM, Hardware Developer, PCB Layout, 3D Modeling
+  - Developed a service that measures and records beverage intake based on weight changes.
+  - Reduced module weight through custom PCB manufacturing.
+- **[🔗CECOM4CUT: Thermal Printer Photo Booth](https://viniu.info/post/Cecom4cuts)** (Sep 2023 – Mar 2024)
+  - *Role*: PM & Hardware Developer
+  - Developed an embedded system that captures photos via ESP32, processes JPEGs into 1-bit BMPs via dithering, and prints them using a Bluetooth Thermal Printer.
+  - Developed Version 1 using ESP32, followed by Version 2 using Raspberry Pi.
+- **[🔗Navizam (나비잠): SIDS Prevention System](https://viniu.info/post/Navizam)** (May 2023 – Oct 2023)
+  - *Role*: PM, Hardware Developer, App Development Support
+  - Implemented indoor child movement tracking using UWB beacons and analyzed bio-signals to prevent Sudden Infant Death Syndrome (SIDS) during independent sleep.
+- **Non-IoT Home Appliance Operation Completion Alarm** (Sep 2022 – Dec 2022)
+  - *Role*: Hardware Developer
+  - Arduino project for an Introduction to Engineering Design course.
+  - Utilized a magnetic hall sensor to measure magnetic flux, detecting when an appliance finishes operating and notifying the user.
 
-- **[🔗CECOM4CUT](https://viniu.info/post/Cecom4cuts)**
-  - **2023.09 - 2024.03 | PM, 하드웨어 개발**
-  - Description
-    - ESP32를 이용하여 사진 활영 후 JPEG to 1bit BMP으로 디더링 및 형식 변환, 블루투스 Thermal Printer(영수증 출력기)에 연결하여 사진을 뽑아주는 프로젝트
-    - ESP32를 활용하여 버전 1 개발 후, Raspberry PI 활용 버전 2 개발
-
-- **[🔗나비잠](https://viniu.info/post/Navizam)**
-  - **2023.05 - 2023.10 | 하드웨어 개발 (UWB 비콘), APP 개발 일부**
-  - Description
-    - UWB 비콘을 활용한 실내에서의 아이 움직임 트래킹, 분리 수면 시 질식사 방지를 위한 생체 신호 수집 · 분석
-    - 2023 교내 공학교육혁신센터 주최 다학제 융합 IoT 캡스톤 디자인 경진대회 아이디어 평가회 우수상
-
-- **비 IoT 가전제품작동완료 알리미**
-  - **2022.09 - 2022.12 | 하드웨어 개발**
-  - Description
-    - 공학설계입문 수업의 일환으로 진행된 아두이노 프로젝트로 자기홀센서를 활용하여 자기량을 측정하여 작동완료를 감지, 사용자에게 알림
-
-### 📚 Studies & Mentoring
+### ⚙ Extracurricular Activities & Studies
 ---
-- **Verilog 스터디 (2025.03 - 2025.09)**
-  - 1bit-registor부터 간단한 ALU를 설계, 나아가 몇가지 간단한 연산을 수행하는 CPU를 구상
+- **GDGOC (Google Developer Group on Campus) Chung-Ang Univ.** | Member (Aug 2025 – Present)
+- **CECOM (Chung-Ang Univ. Computer Hardware Club)** - Vice President (Jan 2024 – Dec 2024)
+  - PR Member (Sep 2023 – Mar 2025) & General Member (Aug 2023 – Present)
+- **Verilog Study** (Mar 2025 – Sep 2025)
+  - Designed digital circuits from a 1-bit register to a simple ALU, ultimately conceptualizing a CPU capable of basic operations.
 
-- **ESP32 멘토링 (2024.09 - 2024.12 | 멘토)**
-  - 동아리(CECOM)에서 진행한 ESP32 활용 방법에 관한 멘토링에서 멘토를 맡아 토이프로젝트 형식의 멘토링을 진행
-
-### 🛠 Tools, Languages & OS
+### 📝 Teaching & Mentoring
 ---
-- **C, C++**
-  - ESP32 기반 프로젝트([🔗Aquamonitor](https://viniu.info/post/AquaMonitor), [🔗나비잠](https://viniu.info/post/Navizam), 비 IoT 가전제품작동완료 알리미, [🔗CECOM4CUT](https://viniu.info/post/Cecom4cuts))
+- **Mirae Academy | Teaching Assistant** (Jul 2022 – Present)
+  - Taught high school level Calculus, Probability & Statistics, and Geometry.
+  - Handled Q&A clinic sessions for 10th and 11th graders.
+  - Improved efficiency using Google Spreadsheets and edited textbooks/error notes using Hangul.
+  - Created math problem images using Adobe Illustrator and authored manuals for fellow TAs.
+- **ESP32 (Arduino) Mentoring | Mentor** (Sep 2024 – Dec 2024)
+  - Taught ESP32-based hardware control and firmware development to CECOM club members through toy projects.
 
-- **Python**
-  - 앱 · 웹 크롤링 및 업무자동화 프로그램 기획 · 개발 · 배포 · 유지보수 [🔗관련 게시글](https://viniu.info/post/Appium)
+### 🏆 Awards & Certificates
+---
+- **3rd Place, Encouragement Award** (Jan 2026): Semiconductor Innovation Festival (SIF 2026) for the FPGA-based SNN Wake-Word Spotting System.
+- **2nd Place, Excellence Award** (Oct 2024): IoT Capstone Design Idea Competition, hosted by the Engineering Education Innovation Center of CAU (Aquamonitor).
+- **2nd Place, Excellence Award** (Oct 2023): IoT Capstone Design Idea Competition, hosted by the Engineering Education Innovation Center of CAU (Navizam).
+- **Linux Master Level 2** (Jan 2025): KAIT (Korea Association for ICT Promotion).
 
-- **Linux**
-  - Raspberry PI 활용
-
-- **Autodesk Inventor**
-  - [🔗Aquamonitor](https://viniu.info/post/AquaMonitor), [🔗나비잠](https://viniu.info/post/Navizam), 비 IoT 가전제품작동완료 알리미, [🔗CECOM4CUT](https://viniu.info/post/Cecom4cuts) 패키징 디자인
-
-- **Autodesk Fusion**
-  - [🔗Aquamonitor](https://viniu.info/post/AquaMonitor) PCB Layout Design
-
-- **Blender**
-  - [🔗인체 상반 모형 모델링](https://viniu.info/post/Ssomaeck)
-
-- **Adobe Illustrator**
-  - 동아리 홍보물 제작 및 판촉물 제작
-
-- **Figma**
-  - [🔗개인 블로그](https://viniu.info) 및 [🔗중앙대학교 컴퓨터 하드웨어 중앙동아리 홈페이지](https://cecom.dev) 디자인
-  - [🔗Aquamonitor 모바일 앱](https://viniu.info/post/AquaMonitor), [🔗나비잠 모바일 앱](https://viniu.info/post/Navizam) 디자인
+### 🛠 Skills (Tools, Languages & OS)
+---
+- **Programming Languages**
+  - **C, C++**: Used in Aquamonitor, Navizam, Home Appliance Alarm, CECOM4CUT, and ESP32 firmware.
+  - **Python**: App/Web crawling, automated data entry program planning/development/deployment ([🔗Related Post](https://viniu.info/post/Appium)).
+  - **Verilog**: Digital circuit and CPU conceptual design.
+- **Hardware & Boards**
+  - Raspberry Pi, ESP32, STM32, NPU Board (AI-G, D3-G, VCP-G of Topst), FPGA (Nexys-A7).
+- **Operating Systems**
+  - FreeRTOS, Embedded Linux (Yocto Project), Ubuntu.
+- **Modeling & Design Tools**
+  - **Autodesk Inventor**: Packaging design for Aquamonitor, Navizam, Home Appliance Alarm, CECOM4CUT.
+  - **Autodesk Fusion**: Aquamonitor PCB Layout Design.
+  - **Blender**: [🔗Human upper body model rendering](https://viniu.info/post/Ssomaeck).
+  - **Figma**: [🔗Personal Blog](https://viniu.info) and [🔗CECOM Website](https://cecom.dev) UI/UX, Aquamonitor & Navizam mobile app design.
+  - **Adobe Illustrator**: Club promotional materials and TA problem image creation.
+- **Other Frameworks & Tools**
+  - PyTorch, Next.js, Vivado, OpenCV, YOLOv8.
