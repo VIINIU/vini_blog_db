@@ -32,31 +32,34 @@ thumbnail: sugar.webp
 
 ### 📁 Projects
 ---
-- **[🔗FPGA-based SNN Wake-Word Spotting System](https://viniu.info/post/snn_wws)** (Sep 2025 – Dec 2025)
-  - *Role*: Individual Project
+- **[🔗FPGA-based SNN Wake-Word Spotting System](https://viniu.info/post/snn_wws)** | Sep 2025 – Dec 2025
+  - **Role: Individual Project**
   - Designed and implemented a low-power wake-up call detection system using SNN architecture on an FPGA.
   - Awarded 3rd Place (Encouragement Award) at the Semiconductor Innovation Festival (SIF 2026).
-- **[🔗Aquamonitor: Beverage Intake Tracker](https://viniu.info/post/AquaMonitor)** (May 2024 – Oct 2024)
-  - *Role*: PM, Hardware Developer, PCB Layout, 3D Modeling
+- **[🔗Aquamonitor: Beverage Intake Tracker](https://viniu.info/post/AquaMonitor)** | May 2024 – Oct 2024
+  - **Role | PM & Hardware Developer, PCB Layout, 3D Modeling**
   - Developed a service that measures and records beverage intake based on weight changes.
   - Reduced module weight through custom PCB manufacturing.
-- **[🔗CECOM4CUT: Thermal Printer Photo Booth](https://viniu.info/post/Cecom4cuts)** (Sep 2023 – Mar 2024)
-  - *Role*: PM & Hardware Developer
+- **[🔗CECOM4CUT: Thermal Printer Photo Booth](https://viniu.info/post/Cecom4cuts)** | Sep 2023 – Mar 2024
+  - **Role | PM & Hardware Developer**
   - Developed an embedded system that captures photos via ESP32, processes JPEGs into 1-bit BMPs via dithering, and prints them using a Bluetooth Thermal Printer.
   - Developed Version 1 using ESP32, followed by Version 2 using Raspberry Pi.
-- **[🔗Navizam (나비잠): SIDS Prevention System](https://viniu.info/post/Navizam)** (May 2023 – Oct 2023)
-  - *Role*: PM, Hardware Developer, App Development Support
+- **[🔗Navizam (나비잠): SIDS Prevention System](https://viniu.info/post/Navizam)** | May 2023 – Oct 2023
+  - **ROLE | PM, Hardware Developer, App Development Support**
   - Implemented indoor child movement tracking using UWB beacons and analyzed bio-signals to prevent Sudden Infant Death Syndrome (SIDS) during independent sleep.
-- **Non-IoT Home Appliance Operation Completion Alarm** (Sep 2022 – Dec 2022)
-  - *Role*: Hardware Developer
+- **Non-IoT Home Appliance Operation Completion Alarm** | Sep 2022 – Dec 2022
+  - **Role | Hardware Developer**
   - Arduino project for an Introduction to Engineering Design course.
   - Utilized a magnetic hall sensor to measure magnetic flux, detecting when an appliance finishes operating and notifying the user.
 
-### ⚙ Extracurricular Activities & Studies
+### 👾 Extracurricular Activities & Studies
 ---
-- **GDGOC (Google Developer Group on Campus) Chung-Ang Univ.** | Member (Aug 2025 – Present)
-- **CECOM (Chung-Ang Univ. Computer Hardware Club)** - Vice President (Jan 2024 – Dec 2024)
-  - PR Member (Sep 2023 – Mar 2025) & General Member (Aug 2023 – Present)
+- **GDGOC (Google Developer Group on Campus) Chung-Ang Univ.** 
+  - Member (Aug 2025 – Present)
+- **CECOM (Chung-Ang Univ. Computer Hardware Club)** 
+  - Vice President (Jan 2024 – Dec 2024)
+  - PR Member (Sep 2023 – Mar 2025)
+  - General Member (Aug 2023 – Present)
 - **Verilog Study** (Mar 2025 – Sep 2025)
   - Designed digital circuits from a 1-bit register to a simple ALU, ultimately conceptualizing a CPU capable of basic operations.
 
