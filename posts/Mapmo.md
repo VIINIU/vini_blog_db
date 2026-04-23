@@ -13,7 +13,7 @@ Mapmo(Map your memo)는 실제 지도 위의 특정 장소와 메모를 결합�
 
 이 서비스는 사용자의 위치 정보를 실시간으로 조회하는 안드로이드 애플리케이션과, 앱으로부터 데이터를 수신하여 항상 메모 리스트를 띄워두는 키링 형태의 하드웨어 디바이스로 구성된다. 하드웨어는 사용자가 장소 방문 시 매번 스마트폰을 켜지 않고도 투두 리스트를 확인할 수 있도록 돕는 보조 디바이스 역할을 수행한다.
 
-<img src="/images/Mapmo/mapmo_map.png" width="80%" alt="Mapmo 서비스 컨셉"/>
+<img src="/images/Mapmo/mapmo_map.png" width="30%" alt="Mapmo 서비스 컨셉"/>
 
 ### 🧰 하드웨어 아키텍처 및 스택
 
@@ -27,7 +27,6 @@ Mapmo(Map your memo)는 실제 지도 위의 특정 장소와 메모를 결합�
 - **Display**: 1.54 Inch E-ink Display
     - 화면 갱신 시에만 전력을 소모하는 E-ink 디스플레이를 사용하여 'Always-on' 상태에서도 배터리 효율을 극대화했다.
 
-<img src="/images/Mapmo/mapmo_example.png" width="60%" alt="하드웨어 초기 구현 예시"/>
 
 ### 🛠 주요 구현 기술 및 개발 이슈
 
@@ -42,12 +41,12 @@ FreeRTOS 환경에서는 디스플레이 벤더에서 제공하는 표준 그래
 **3. RF 초기화 시 전력 급증 문제 해결 (Infinite Reboot)**
 BLE 통신을 위한 RF 초기화 실행 시, 순간적인 소비 전력 급증으로 인해 보드가 무한 리부트되는 이슈가 발생했다. 이를 해결하기 위해 RF 초기화 데이터(RF Init Data)를 별도의 NVS(Non-Volatile Storage) 파티션에 미리 저장하여 초기화 과정에서의 전력 부하를 분산시키는 방식으로 문제를 해결했다.
 
-<img src="/images/Mapmo/mapmo_double.png" width="100%" alt="하드웨어 및 앱 연동 구조"/>
+<img src="/images/Mapmo/mapmo_double.png" width="40%" alt="하드웨어 및 앱 연동 구조"/>
 
 ### 🚩 현재 진행 상황 및 향후 계획
 
 현재는 BLE 통신을 통한 데이터 수신 및 디스플레이 출력 로직의 안정화 단계에 있다. 하드웨어의 시각적 완성도를 높이기 위해 대기 화면 및 전용 도트 폰트를 디자인하고 있으며, Fusion 360을 활용하여 실제 키링으로 휴대 가능한 전용 쉘(Shell) 모델링을 진행 중이다.
 
-<img src="/images/Mapmo/MAPMO_new.gif" width="50%" alt="Mapmo 하드웨어 동작 애니메이션"/>
+<img src="/images/Mapmo/MAPMO_new.gif" width="100%" alt="Mapmo 하드웨어 동작 애니메이션"/>
 
 향후 모바일 앱의 실시간 위치 알림 기능과 연동하여, 사용자가 특정 구역 진입 시 즉각적으로 키링의 디스플레이가 갱신되도록 시스템을 고도화할 예정이다.
