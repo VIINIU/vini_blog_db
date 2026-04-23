@@ -4,7 +4,7 @@ date : 2026-01-20
 category : SNN, FPGA, Verilog
 project: Research Intern
 pinned : true
-thumbnail: Research_intern_25/sif2025.jpg
+thumbnail: Research_intern_25/sif2026.jpg
 ---
 
 ### ✔ 연구 배경 및 목적
