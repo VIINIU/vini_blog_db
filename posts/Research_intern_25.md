@@ -1,5 +1,5 @@
 ---
-title : [Research_Intern] FPGA 기반 SNN 호출어 감지 시스템 구현 및 하드웨어 최적화
+title : FPGA 기반 SNN 호출어 감지 시스템 구현 및 하드웨어 최적화
 date : 2026-01-20
 category : SNN, FPGA, Verilog
 project: Research Intern
