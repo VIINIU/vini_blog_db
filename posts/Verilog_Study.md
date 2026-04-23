@@ -4,6 +4,7 @@ date:   2025-04-12
 category: Verilog
 project: Study
 pinned: true
+thumbnail: verilog_study/thumbnail.png
 --- 
 
 
