@@ -25,6 +25,7 @@ NPU와 GPU의 하드웨어 설계에 따른 특성은 아래의 표와 같다.
 | --- | --- |
 | **GPU** | General Purpose (High flexibility), Low Energy Efficiency, Low Area Efficiency |
 | **NPU** | Domain Specific (Low flexibility), High Energy Efficiency, High Area Efficiency |
+
 *Table 1. Difference Between GPU and NPU*
 
 위 표를 통해 알 수 있듯 Flexibility와 Efficiency 사이에는 Trade-off가 존재한다. NPU는 Domain Specific한 설계 덕분에 최적화되어 GPU보다 빠르고, 전력을 적게 소모하며 동일한 연산을 수행할 수 있다. 또한 Domain Specific한 특성때문에 GPU보다 범용성이 떨어지고, CNN 워크로드를 위해 만들어진 NPU는 LLM을 돌리는데 큰 이점이 없는 것과 같이 타겟 워크로드와 레이어 구성이 다른 경우 동일한 NPU를 사용하는 것이 효율적이지 않다. 또한, NPU는 CUDA와 같이 통일된 생태계가 존재하지 않고, Vendor마다 다른 구조 때문에 각각의 Vendor에서 제공하는 nntool을 사용해야 한다. 이 tool은 주로 사용할 AI model에 맞춰 미리 Sub-graph를 생성하고, edge와 Mobile인 경우 Quantize, 이후에 NPU Unit에서 실행 가능한 형식으로 변환하기 위한 Compile을 수행한다.
