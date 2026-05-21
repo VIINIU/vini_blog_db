@@ -40,9 +40,7 @@ Generation에 따라서
 
 
 
----
 
-### 1. GPU와 NPU의 특성 및 효율성 비교 (4페이지)
 
 
 
@@ -50,11 +48,6 @@ Generation에 따라서
 | --- | --- |
 | **GPU** | General Purpose (High flexibility), Low Energy Efficiency, Low Area Efficiency |
 | **NPU** | Domain Specific (Low flexibility), High Energy Efficiency, High Area Efficiency |
-
----
-
-### 2. CPU, GPU, NPU 종합 특성 비교 (7~8페이지)
-
 
 
 | Characteristics | CPU | GPU | NPU |
@@ -67,9 +60,6 @@ Generation에 따라서
 | **Typical Devices** | Desktop, server, mobile CPU | Server, HPC, desktop, laptop | Mobile devices, IoT, servers, AI accelerators |
 | **Latency** | Higher for parallel AI tasks | Medium | Lowest for specific AI operations |
 
----
-
-### 3. 구글 TPU(Tensor Processing Unit) 세대별 발전 과정 (10, 17페이지)
 
 
 
