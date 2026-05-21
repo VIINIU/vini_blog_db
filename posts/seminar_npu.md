@@ -65,7 +65,9 @@ MatrixMultiply 명령어를 통해 연산이 시작되면, Unified Buffer에 있
 
 <div class="img-row">
     <img src="/images/NPU/TPU_v1_structure.png" width="40%"/>
+    *Figure 1. TPU Structure*
     <img src="/images/NPU/TPU_v1_Die.png" width="40%"/>
+    *Figure 2. TPU Die*
 </div>
 
 
@@ -76,6 +78,7 @@ TPU v1이 대규모 행렬 곱셈을 극도로 낮은 전력과 높은 처리량
 일반적인 CPU나 GPU는 매 연산마다 메모리에서 데이터를 과정을 반복해야 하므로 Memory Bandwidth 병목 현상이 발생한다. 반면 Systolic Array는 세 방향으로 웨이트와 인풋, 아웃풋이 흐르며 연산을 효율적으로 수행한다.
 
 <img src="/images/NPU/TPU_v1_systolic_array.png" width="80%"/>
+
 *Figure 3. 2D Systolic Array Data Flow inside Matrix Unit*
 
 상단에서 Weight가 아래로, 좌측에서 입력 데이터가 오른쪽으로 흐르고, 연산 결과인 Partial Sum은 아래 Accumulator로 내려갑니다.
@@ -106,6 +109,7 @@ TPU v1은 하드웨어 복잡도를 낮추고 호스트 CPU가 직접 태스크�
 #### TPU 성능 평가
 
 <img src="/images/NPU/TPU_v1_roofline.png" width="80%"/>
+
 *Figure 4. Roofline model*
 
 이 그래프의 가로는 바이트당 몇번의 연산을 하는지, 세로축은 연산성는 TOPS/s를 나타내며, 이 model은 메모리에 의한 보틀넥, 컴퓨팅에의한 보틀넥 두개를 동시에 보여주는 Roofline model이다. 여기서 Compute Bound -> Memory Bound로 전환되는 이 부분을 릿지 포인트라고 한다. 선으로 된 부분은 각각 이론적인 TPU, GPU, CPU의 루프라인이며, 별, 세모, 동그라미 모양은 각각 실제 성능을 나타낸다. 두 축이 모두 로그 스케일이기 때문에 Ridge Point를 보면 보이는 것보다 성능의 차이가 큰데, CPU는 약 13, GPU는 약 9, TPU는 1350이다.
@@ -127,6 +131,7 @@ TPU의 경우 루프라인에 근접한 정도의 실제 성능을 표현함을 
 모바일 환경은 여러 CPU에 의해 워크로드가 통제되어 있는 서버 환경과는 차이가 크기 때문에 모바일 SoC 환경에서 충분히 유연하게 다양한 워크로드를 처리하기 위해 삼성 Exynos NPU는 하드웨어와 소프트웨어가 결합된 서브시스템을 디자인했다.
 
 <img src="/images/NPU/NPU_DSP.png" width="80%"/>
+
 *Figure 5. Samsung Exynos NPU-DSP Sub-System*
 
 - **Multi-Core 및 데이터 병렬성 구성** 정격 전압 조건에서 936MHz의 클록 주파수로 동작하는 3개의 하드웨어 코어를 보유하고 있다. 코어당 2,048개의 Multiply-Accumulate(MAC) 유닛이 할당되어 총 6,144 MAC 규모를 자랑한다. 이는 합성곱 연산 시 32개의 입력 채널(Input Channel)과 64개의 출력 채널(Output Channel)을 동시에 처리할 수 있는 고성능 Data Parallelism 연산 구조이다. 이를 통해 최종 11.5 TOPS의 강력한 고정소수점 연산 성능을 확보해 낸다.
@@ -149,6 +154,7 @@ TPU의 경우 루프라인에 근접한 정도의 실제 성능을 표현함을 
 일반적인 Deep learning infrastructure에서 Feature Map은 50% 이상이 0으로 채워져 큰 Sparsity 특성을 보인다. 이 과정에서 연산 유닛이 Idle에 놓이는 상황을 줄이기 위해 Zero-skipping을 적용하였다.
 
 <img src="/images/NPU/zero_weight.png" width="80%"/>
+
 *Figure 6. Zero Skipping 데이터 흐름 메커니즘*
 
 - Fetching Unit 내부의 Input Feature Map(IFM) Fetcher가 Scratchpad Memory로부터 Tensor를 읽어 들일 때, 가속기 내부의 Dispatching Unit에 결합된 Sparsity Controller가 각 데이터 라인을 모니터링 하다가 0을 발견하면 해당 연산 파이프라인을 홀딩하고 오직 유효한 Non-zero 성분만을 선별하여 하위 16x16 MAC Array로 전달한다.
@@ -160,6 +166,7 @@ TPU의 경우 루프라인에 근접한 정도의 실제 성능을 표현함을 
 DRAM Memory Bus의 Bottle Neck을 줄이고, 메모리 트랜잭션을 최소화하기 위해  Exynos NPU 시스템은 Quad-tree 기반의 Feature-map Lossless Compressor를 사용한다.
 
 <img src="/images/NPU/quadtree.png" width="80%"/>
+
 *Figure 7. Quad-tree 클러스터링을 이용한 Compressor*
 
 - Zero Feature 값들이 특정 행렬 영역에 클러스터링되어 뭉쳐 있는 공간 특성을 계층적으로 스캔하기 위해 **Level 2 $\rightarrow$ Level 1 $\rightarrow$ Level 0 구조의 Quad-tree** Meta-data 기법을 사용한다.
@@ -178,6 +185,7 @@ Indexing metadata와 Non-zero 데이터만 DRAM에 저장하고, 코어로 전�
 컴퓨팅 코어가 연산을 도는 시간 동안 DMA Time 숨겨 파이프라인 버블을 제거하기 위해, 하드웨어 Command Queue(CMDQ) 제어 루틴이 밀리초 단위 이하로 작동한다.
 
 <img src="/images/NPU/subgraph.png" width="80%"/>
+
 *Figure 8. parallelization을 위한 Fast Resource Scheduling Timeline 및 Synchronization*
 
 - 동적 파이프라인 관리
@@ -202,6 +210,7 @@ ENN toolchain은 유저가 설계한 model 가속을 위해 프론트엔드부�
 
 전반적인 동작과정은 아래 이미지와 같다.
 <img src="/images/NPU/ENNflow.png" width="80%"/>
+
 *Figure 9. 전체 동작과정*
 
 이처럼 Mobile NPU는 다양한 워크로드에 적용하기 위하여 내부에 Computing Unit과 Command를 Handle하는 컨트롤 로직이 포함되어 있어, 앞서 살펴본 TPU보다는 Flexibility에 신경을 쓴 디바이스이다. 모바일 Workload는 다양하기에 GPU를 사용하면 범용성 확보에 이점이 있겠지만, 전력소모와 레이턴시 측면에서 잃는 부분도 그만큼 많기에 NPU가 주로 사용된다.
@@ -215,6 +224,7 @@ ENN toolchain은 유저가 설계한 model 가속을 위해 프론트엔드부�
 
 
 <img src="/images/NPU/aig.png" width="80%"/>
+
 *Figure 10. TOPST AI-G*
 
 모바일 인프라와 달리 고신뢰성 및 실시간성이 요구되는 스마트 모빌리티 및 로봇 공학 환경에서는 주로 MCU나 CPU 등의 Main Processor 옆에 내장된 형태로 NPU가 제공된다. 이번 세미나에서는 지난 인턴쉽을 통해 사용해본 텔레칩스 TOPST AI-G 개발 보드와 여기에 내장된 N-dolphin NPU의 아키텍처를 중심으로 발표하게 되었다. 모든 사진 자료와 내용은 [🔗Topst 공식 홈페이지](https://topst.ai/tech/docs)와 [🔗Topst 공식 깃허브 교육자료](https://github.com/topst-development/Education/tree/edu/Fabless/LectureNote)에서 찾아 정리하였다.
@@ -234,6 +244,7 @@ N-dolphin NPU는 앞서 설명한 바와 같이 Main Processor 역할을 하는 
 대부분의 NPU Vendor는 공급한 NPU Chipset에서 가장 효율적으로 연산이 수행되도록 NPU binary 실행파일을 만들수 있도록 하는 툴을 제공하는데 Telechips에서 이를 위해 제공하는 툴은 tc-nn-toolkit이다.
 
 <img src="/images/NPU/tcnn.png" width="80%"/>
+
 *Figure 11. tc-nn-toolkit model 변환 및 추론 과정*
 
 - Neural Network Converter
@@ -248,6 +259,7 @@ N-dolphin NPU는 앞서 설명한 바와 같이 Main Processor 역할을 하는 
 ### 실제 모델 포팅 결과
 
 <img src="/images/NPU/aiginfer.png" width="80%"/>
+
 *Figure 12. TOPST AI-G 추론 결과*
 
 모델을 실제로 포팅해서 추론을 수행해보면, 30FPS 정도의 추론 속도가 나온다. 정상적으로 추론되어 Object Detection이 수행되는 것을 볼 수 있다.
