@@ -73,14 +73,12 @@ MatrixMultiply 명령어를 통해 연산이 시작되면, Unified Buffer에 있
     <div style="width: 40%;">
         <img src="/images/NPU/TPU_v1_structure.png" width="100%"/>
         <br/>
-        
-        *Figure 1. TPU Structure*
+        Figure 1. TPU Structure
     </div>
     <div style="width: 40%;">
         <img src="/images/NPU/TPU_v1_Die.png" width="100%"/>
         <br/>
-
-        *Figure 2. TPU Die*
+        Figure 2. TPU Die
     </div>
 
 </div>
