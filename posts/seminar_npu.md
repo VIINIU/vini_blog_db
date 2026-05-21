@@ -6,9 +6,13 @@ pinned : true
 thumbnail: NPU/npu_seminar.jpeg
 ---
 
+---
+
 ### ✔ 세미나 개요
 - NPU(Neural Processing Unit) 아키텍처
 - 2026년 5월 CUDA 세미나에 이어 진행한 NPU 세미나의 내용을 정리한 글입니다.
+
+---
 
 ### 🎛️ NPU란?
 Google Cloud에서 2013년부터 본격적으로 음성인식을 도입하면서, 늘어나는 DNN 워크로드를 처리할 디바이스가 필요했고, GPU는 전력 소모가 크고 Lactency를 만족하지 못하기 때문에 Domain Specific한 ASIC 설계를 통해서 Neural Network Workload만 특화되어 처리하는 Printed Circuit을 만드는 프로젝트를 진행하였다.
@@ -48,6 +52,7 @@ NPU는 사용되는 Device에 따라 특성이 달라 세 가지 정도로 구�
 NPU의 Generation에 따라서 TPU -> Mobile -> Edge 순으로 설명해보려 한다. 
 
 ---
+
 ### 👾 TPU
 TPU의 경우 2015년 Google의 데이터 센터에서 도입되어 해당 유닛의 효용가치가 아래 논문을 통해서 증명되었다. 이 글의 TPU에 대한 설명은 아래 논문을 바탕으로 구성하였다.
 In-Data center Performance Analysis of a Tensor Processing Unit (2017)
@@ -70,6 +75,8 @@ MatrixMultiply 명령어를 통해 연산이 시작되면, Unified Buffer에 있
     *Figure 2. TPU Die*
 </div>
 
+---
+
 
 ##### Systolic Array 연산 메커니즘
 
@@ -90,6 +97,8 @@ TPU v1이 대규모 행렬 곱셈을 극도로 낮은 전력과 높은 처리량
 셋째, Decoupled Access/Execute를 지원하여 Weight를 메모리에서 읽는 명령과 실제 행렬 연산 명령이 분리되어 있어, Weight가 FIFO를 통해 prefetch되는 동안 MAC 배열은 이전 연산을 계속할 수 있도록 구현되어 있다.
 GPU와 비교하면, GPU SM은 범용 ALU가 캐시에서 자유롭게 데이터를 읽지만, TPU MAC은 데이터 이동 경로 자체가 하드웨어에 고정되어 있어 Die의 67%가 순수 연산 및 메모리 경로에 할당되고, Control은 2% 정도만 차지한다.
 
+---
+
 
 ##### TPU 전용 CISC 명령어 셋
 
@@ -106,6 +115,8 @@ TPU v1은 하드웨어 복잡도를 낮추고 호스트 CPU가 직접 태스크�
 
 이 외에 7개의 명령어가 있어 총 12개의 명령어로 구성되어있으며, 이는 PCIe Unit을 통해 전달되며, 하나의 명령어가 평균 10~20 사이클의 연산을 커버한다.
 
+---
+
 ##### TPU 성능 평가
 
 <img src="/images/NPU/TPU_v1_roofline.png" width="80%"/>
@@ -117,10 +128,12 @@ TPU v1은 하드웨어 복잡도를 낮추고 호스트 CPU가 직접 태스크�
 TPU의 경우 루프라인에 근접한 정도의 실제 성능을 표현함을 알 수 있지만, GPU와 CPU는 이론적인 루프라인이 낮은데다가 실제 성능 사이의 차이가 큰데 이는 Latency 제약으로 인해 각각의 Batch 사이즈를 작게 설정해야하기 때문이다.
 
 
----
 
 이처럼 Costom ASIC은 범용적인 사용은 불가능하지만, 추론에 활용할 때에 한해서는 여러 측면에서 매우 효율적인 수행이 가능하다.
 이러한 장점은 엣지나 모바일과 같은 배터리 제약과 레이턴시 제약이 큰 환경에서 더 큰 장점이 된다.
+
+---
+
 
 ### 📲 On-device NPU
 
@@ -229,6 +242,8 @@ ENN toolchain은 유저가 설계한 model 가속을 위해 프론트엔드부�
 
 모바일 인프라와 달리 고신뢰성 및 실시간성이 요구되는 스마트 모빌리티 및 로봇 공학 환경에서는 주로 MCU나 CPU 등의 Main Processor 옆에 내장된 형태로 NPU가 제공된다. 이번 세미나에서는 지난 인턴쉽을 통해 사용해본 텔레칩스 TOPST AI-G 개발 보드와 여기에 내장된 N-dolphin NPU의 아키텍처를 중심으로 발표하게 되었다. 모든 사진 자료와 내용은 [🔗Topst 공식 홈페이지](https://topst.ai/tech/docs)와 [🔗Topst 공식 깃허브 교육자료](https://github.com/topst-development/Education/tree/edu/Fabless/LectureNote)에서 찾아 정리하였다.
 
+---
+
 ##### 듀얼 클러스터 독립 연산 파이프라인
 
 N-dolphin NPU는 앞서 설명한 바와 같이 Main Processor 역할을 하는 CPU와 같은 보드에 NPU를 넣은 구조이다. Telechips는 차량과 자율주행을 위한 Chipset을 생산하는 회사이기 때문에 자율주행을 위한 이미지 처리에 Focusing된 형태로 디자인된 NPU이다.
@@ -256,6 +271,8 @@ N-dolphin NPU는 앞서 설명한 바와 같이 Main Processor 역할을 하는 
 - Neural Network Compiler & Simulator
     Quantization이 완료된 모델을 기반으로 NPU Binary Set 으로 최종 컴파일 아웃풋을 생성한다. 
     
+---
+
 ### 실제 모델 포팅 결과
 
 <img src="/images/NPU/aiginfer.png" width="80%"/>
