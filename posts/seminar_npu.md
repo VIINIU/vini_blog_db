@@ -78,7 +78,7 @@ MatrixMultiply 명령어를 통해 연산이 시작되면, Unified Buffer에 있
 ---
 
 
-##### Systolic Array 연산 메커니즘
+#### Systolic Array 연산 메커니즘
 
 TPU v1이 대규모 행렬 곱셈을 극도로 낮은 전력과 높은 처리량으로 수행 가능한 것은 **Systolic Array** 덕분이다.
 
@@ -100,7 +100,7 @@ GPU와 비교하면, GPU SM은 범용 ALU가 캐시에서 자유롭게 데이터
 ---
 
 
-##### TPU 전용 CISC 명령어 셋
+#### TPU 전용 CISC 명령어 셋
 
 TPU v1은 하드웨어 복잡도를 낮추고 호스트 CPU가 직접 태스크를 제어할 수 있도록 12개 미만의 전용 Complex Instruction Set Computer(CISC) 명령어를 사용한다. 핵심 명령어 5가지는 다음과 같이 정의된다.
 
@@ -117,7 +117,7 @@ TPU v1은 하드웨어 복잡도를 낮추고 호스트 CPU가 직접 태스크�
 
 ---
 
-##### TPU 성능 평가
+#### TPU 성능 평가
 
 <img src="/images/NPU/TPU_v1_roofline.png" width="80%"/>
 
@@ -153,7 +153,7 @@ TPU의 경우 루프라인에 근접한 정도의 실제 성능을 표현함을 
 
 ---
 
-##### Adder-tree 기반의 데이터패스 설계 기믹
+#### Adder-tree 기반의 데이터패스 설계 기믹
 
 대다수의 NPU 가속기들이 Accumulator와 Flip-Flop 조합으로 구성된 직렬 방식의 Dot-product Engine을 사용하는데 반해 Adder-tree 기반 data-path를 사용한다.
 
@@ -162,7 +162,7 @@ TPU의 경우 루프라인에 근접한 정도의 실제 성능을 표현함을 
 
 ---
 
-##### 하드웨어 레벨의 Zero Skipping 연산 가속
+#### 하드웨어 레벨의 Zero Skipping 연산 가속
 
 일반적인 Deep learning infrastructure에서 Feature Map은 50% 이상이 0으로 채워져 큰 Sparsity 특성을 보인다. 이 과정에서 연산 유닛이 Idle에 놓이는 상황을 줄이기 위해 Zero-skipping을 적용하였다.
 
@@ -174,7 +174,7 @@ TPU의 경우 루프라인에 근접한 정도의 실제 성능을 표현함을 
 
 ---
 
-##### Quad-tree 기반의 Feature-map Lossless Compressor
+#### Quad-tree 기반의 Feature-map Lossless Compressor
 
 DRAM Memory Bus의 Bottle Neck을 줄이고, 메모리 트랜잭션을 최소화하기 위해  Exynos NPU 시스템은 Quad-tree 기반의 Feature-map Lossless Compressor를 사용한다.
 
@@ -193,7 +193,7 @@ Indexing metadata와 Non-zero 데이터만 DRAM에 저장하고, 코어로 전�
 
 ---
 
-##### Fast Resource Scheduling 파이프라인 제어
+#### Fast Resource Scheduling 파이프라인 제어
 
 컴퓨팅 코어가 연산을 도는 시간 동안 DMA Time 숨겨 파이프라인 버블을 제거하기 위해, 하드웨어 Command Queue(CMDQ) 제어 루틴이 밀리초 단위 이하로 작동한다.
 
@@ -207,7 +207,7 @@ Indexing metadata와 Non-zero 데이터만 DRAM에 저장하고, 코어로 전�
 
 ---
 
-##### Host Driver와 SW Frame Work Stack
+#### Host Driver와 SW Frame Work Stack
 
 ENN toolchain은 유저가 설계한 model 가속을 위해 프론트엔드부터 커널 드라이버까지 전체 워크로드를 따라 구성되어있다.
 
@@ -233,7 +233,7 @@ ENN toolchain은 유저가 설계한 model 가속을 위해 프론트엔드부�
 
 ### 👀 Edge Vision NPU
 
-##### 텔레칩스 TOPST AI-G
+#### 텔레칩스 TOPST AI-G
 
 
 <img src="/images/NPU/aig.png" width="80%"/>
@@ -244,7 +244,7 @@ ENN toolchain은 유저가 설계한 model 가속을 위해 프론트엔드부�
 
 ---
 
-##### 듀얼 클러스터 독립 연산 파이프라인
+#### 듀얼 클러스터 독립 연산 파이프라인
 
 N-dolphin NPU는 앞서 설명한 바와 같이 Main Processor 역할을 하는 CPU와 같은 보드에 NPU를 넣은 구조이다. Telechips는 차량과 자율주행을 위한 Chipset을 생산하는 회사이기 때문에 자율주행을 위한 이미지 처리에 Focusing된 형태로 디자인된 NPU이다.
 
@@ -254,7 +254,7 @@ N-dolphin NPU는 앞서 설명한 바와 같이 Main Processor 역할을 하는 
     내부에 Cortex-A53 Quad Core CPU를 내장하고 있어, Custom Build한 Linux OS를 올리고 NPU Accelation 제어와 추론 이후 디스플레이 후처리까지 단일 보드에서 가능하다.
 
 
-##### model 포팅
+#### model 포팅
 
 대부분의 NPU Vendor는 공급한 NPU Chipset에서 가장 효율적으로 연산이 수행되도록 NPU binary 실행파일을 만들수 있도록 하는 툴을 제공하는데 Telechips에서 이를 위해 제공하는 툴은 tc-nn-toolkit이다.
 
@@ -273,7 +273,7 @@ N-dolphin NPU는 앞서 설명한 바와 같이 Main Processor 역할을 하는 
     
 ---
 
-### 실제 모델 포팅 결과
+#### 실제 모델 포팅 결과
 
 <img src="/images/NPU/aiginfer.png" width="80%"/>
 
