@@ -3,7 +3,7 @@ title : NPU 세미나 내용 정리
 date : 2026-05-21
 category : Embedded, Hardware
 pinned : true
-thumbnail: NPU/npu_seminar.jpeg
+thumbnail: NPU/aig.png
 ---
 
 ---
