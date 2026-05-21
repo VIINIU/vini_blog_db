@@ -70,12 +70,18 @@ MatrixMultiply 명령어를 통해 연산이 시작되면, Unified Buffer에 있
 이때, TPU에서 수행되는 연산에는 캐시 관리와 분기 에측 등의 제어가 필요하지 않기에 Flexibility를 위한 General한 기능은 모두 제거하여 Die의 67%를 연산과 Data path에 할당하고 Control Part의 면적은 2% 정도만 할당하여 Area Efficiency를 높였다.
 
 <div class="img-row">
-    <img src="/images/NPU/TPU_v1_structure.png" width="40%"/>
-    *Figure 1. TPU Structure*
-    <img src="/images/NPU/TPU_v1_Die.png" width="40%"/>
-    *Figure 2. TPU Die*
-</div>
+    <div style="width: 40%;">
+        <img src="/images/NPU/TPU_v1_structure.png" width="100%"/>
+        <br/>
+        *Figure 1. TPU Structure*
+    </div>
+    <div style="width: 40%;">
+        <img src="/images/NPU/TPU_v1_Die.png" width="100%"/>
+        <br/>
+        *Figure 2. TPU Die*
+    </div>
 
+</div>
 ---
 
 
