@@ -258,9 +258,6 @@ N-dolphin NPU는 앞서 설명한 바와 같이 Main Processor 역할을 하는 
 ---
 
 
-
-
-
 ### 📚 References
 [1] N. Davidović, S. Nogo, and D. Bilinac, ["A Survey of Neural Processing Unit Architectures and Performance,"](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11477735) in Proceedings of IEEE INFOTEH-JAHORINA, Mar. 2026.
 [2] N. P. Jouppi, et al., ["In-Datacenter Performance Analysis of a Tensor Processing Unit,"](https://dl.acm.org/doi/abs/10.1145/3079856.3080246) Google, Inc., ISCA, 2017.
