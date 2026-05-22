@@ -120,6 +120,7 @@ TPU v1은 하드웨어 복잡도를 낮추고 호스트 CPU가 직접 태스크�
 | **MatrixMultiply / Convolve** | 행렬 곱셈 유닛이 통합 버퍼의 데이터를 바탕으로 행렬 곱셈이나 합성곱 연산을 수행하고 결과를 Accumulators에 저장 |
 | **Activate** | Accumulator의 값에 ReLU, Sigmoid 등 활성화 함수 연산을 수행하여 Unified Buffer에 저장 |
 | **Write_Host_Memory** | Unified Buffer에 저장된 최종 연산 결과를 호스트 CPU 메모리로 전송 |
+
 *Table 3. Key CISC Instructions for TPU v1*
 
 이 외에 7개의 명령어가 있어 총 12개의 명령어로 구성되어있으며, 이는 PCIe Unit을 통해 전달되며, 하나의 명령어가 평균 10~20 사이클의 연산을 커버한다.
