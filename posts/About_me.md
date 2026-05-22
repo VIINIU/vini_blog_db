@@ -32,7 +32,7 @@ thumbnail: sugar.webp
   - Started as an office assistant and proactively improved workflow efficiency.
   - Planned, developed, and maintained Python-based app/web crawling tools to restructure data and automate data entry systems.
 
-### 📁 Projects
+### 📁 Individual Project / Team Projects
 ---
 - **Mapmo (Map your memo): Location-based Todo Alert Keyring** | Feb 2026 – Present
   - **Role | PM & Firmware/Hardware Developer**
