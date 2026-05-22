@@ -1,7 +1,8 @@
 ---
 title : NPU 세미나 내용 정리
 date : 2026-05-21
-category : Embedded, Hardware
+category : Embedded, NPU
+project : Research Intern
 pinned : true
 thumbnail: NPU/aig.png
 ---
@@ -230,8 +231,8 @@ ENN toolchain은 유저가 설계한 model 가속을 위해 프론트엔드부�
     3. *Compensation*  | 원본 model 대비 Quantization error를 분석하여 bias 값을 보정
 - Performance Estimator (PE)
      드라이버 레벨의 스케줄링 환경을 에뮬레이션 -> Layer-by-layer 단위의 Compute 및 DMA 타임 소요량을 미리 뽑아내는 성능 예측 시뮬레이터 역할을 수행
-
 전반적인 동작과정은 아래 이미지와 같다.
+
 <img src="/images/NPU/ENNflow.png" width="80%"/>
 
 *Figure 9. 전체 동작과정*
