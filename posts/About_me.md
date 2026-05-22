@@ -84,11 +84,13 @@ thumbnail: sugar.webp
 - **ESP32 (Arduino) Mentoring | Mentor** (Sep 2024 – Dec 2024)
   - Taught ESP32-based hardware control and firmware development to CECOM club members through toy projects.
 
-### 🏆 Awards & Certificates
+### 🏆 Awards
 ---
-- **3rd Place, Encouragement Award** (Jan 2026): Semiconductor Innovation Festival (SIF 2026) for the FPGA-based SNN Wake-Word Spotting System.
+- **3rd Place, Encouragement Award** (Jan 2026): Semiconductor Innovation Festival (SIF 2026) for the FPGA-based SNN Wake-Word Spotting System (Awarded a scholarship of KRW 1,800,000).
 - **2nd Place, Excellence Award** (Oct 2024): IoT Capstone Design Idea Competition, hosted by the Engineering Education Innovation Center of CAU (Aquamonitor).
 - **2nd Place, Excellence Award** (Oct 2023): IoT Capstone Design Idea Competition, hosted by the Engineering Education Innovation Center of CAU (Navizam).
+
+### 🪪 Certificates 
 - **Linux Master Level 2** (Jan 2025): KAIT (Korea Association for ICT Promotion).
 
 ### 🛠 Skills (Tools, Languages & OS)
@@ -96,16 +98,16 @@ thumbnail: sugar.webp
 - **Programming Languages**
   - **C, C++**: Used in Mapmo, Aquamonitor, Navizam, Home Appliance Alarm, CECOM4CUT, and ESP32 firmware.
   - **Python**: App/Web crawling, automated data entry program planning/development/deployment ([🔗Related Post](https://viniu.info/post/Appium)).
-  - **Verilog**: Digital circuit and CPU conceptual design.
+  - **Verilog**: Digital circuit and CPU conceptual design.([🔗Related Post](https://viniu.info/post/Research_intern_25)).
 - **Hardware & Boards**
-  - Raspberry Pi, ESP32, STM32, NPU Board (AI-G, D3-G, VCP-G of Topst), FPGA (Nexys-A7).
+  - Raspberry Pi, ESP32, STM32, [Telechips Topst Board (AI-G, D3-G, VCP-G)](https://viniu.info/post/Telechips_Internship.md), FPGA (Nexys-A7).
 - **Operating Systems**
-  - FreeRTOS, Embedded Linux (Yocto Project), Ubuntu.
+  - FreeRTOS, Embedded Linux (Yocto Project), Ubuntu. .([🔗Related Post](https://viniu.info/post/Telechips_Internship.md)).
 - **Modeling & Design Tools**
   - **Autodesk Inventor**: Packaging design for Aquamonitor, Navizam, Home Appliance Alarm, CECOM4CUT.
   - **Autodesk Fusion / Fusion 360**: Mapmo Shell Design, Aquamonitor PCB Layout Design.
   - **Blender**: [🔗Human upper body model rendering](https://viniu.info/post/Ssomaeck).
   - **Figma**: [🔗Personal Blog](https://viniu.info) and [🔗CECOM Website](https://cecom.dev) UI/UX, Aquamonitor & Navizam mobile app design.
-  - **Adobe Illustrator**: Club promotional materials and TA problem image creation.
+  - **Adobe Illustrator**: Club promotional materials and math problem image creation (as a TA of Mirae Academy).
 - **Other Frameworks & Tools**
   - PyTorch, Next.js, ESP-IDF, Vivado, OpenCV, YOLOv8.
