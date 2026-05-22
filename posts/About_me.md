@@ -1,6 +1,6 @@
 ---
 title:  "About Me"
-date:   2025-08-08
+date:   2026-05-22
 category: About Me
 thumbnail: sugar.webp
 --- 
@@ -19,6 +19,8 @@ thumbnail: sugar.webp
 
 ### 💼 Work & Research Experience
 ---
+- **Chung-Ang University | Undergraduate Research Intern** (Mar 2026 – Present)
+  - Researching GPU utilization optimization and hardware acceleration for Large Language Model (LLM) serving under the supervision of Prof. Cheolho Hong.
 - **Telechips | Undergraduate Intern** (Jan 2026)
   - Brought up 3 types of Topst boards (AI-G, D3-G, VCP-G).
   - Developed an autonomous Scale Car utilizing YOLOv8 and OpenCV models for real-time object detection and lane following algorithms.
@@ -32,8 +34,17 @@ thumbnail: sugar.webp
 
 ### 📁 Projects
 ---
+- **Mapmo (Map your memo): Location-based Todo Alert Keyring** | Feb 2026 – Present
+  - **Role | PM & Firmware/Hardware Developer**
+  - Developing a location-based task management service that pairs an Android app with a custom low-power keyring device.
+  - Engineered firmware using **FreeRTOS** on ESP32 to achieve ultra-low power consumption and real-time task handling.
+  - Designing a portable, compact exterior shell using Autodesk Fusion 360.
+- **Personal Technical Blog Development** | Jan 2026 – Feb 2026
+  - **Role | Individual Project**
+  - Built and deployed a personal technical blog ([🔗viniu.info](https://viniu.info)) to serve as an archive for engineering studies and projects.
+  - Designed responsive UI/UX from scratch using Figma and implemented it using Next.js for optimized performance and SEO.
 - **[🔗FPGA-based SNN Wake-Word Spotting System](https://viniu.info/post/snn_wws)** | Sep 2025 – Dec 2025
-  - **Role: Individual Project**
+  - **Role | Individual Project**
   - Designed and implemented a low-power wake-up call detection system using SNN architecture on an FPGA.
   - Awarded 3rd Place (Encouragement Award) at the Semiconductor Innovation Festival (SIF 2026).
 - **[🔗Aquamonitor: Beverage Intake Tracker](https://viniu.info/post/AquaMonitor)** | May 2024 – Oct 2024
@@ -83,7 +94,7 @@ thumbnail: sugar.webp
 ### 🛠 Skills (Tools, Languages & OS)
 ---
 - **Programming Languages**
-  - **C, C++**: Used in Aquamonitor, Navizam, Home Appliance Alarm, CECOM4CUT, and ESP32 firmware.
+  - **C, C++**: Used in Mapmo, Aquamonitor, Navizam, Home Appliance Alarm, CECOM4CUT, and ESP32 firmware.
   - **Python**: App/Web crawling, automated data entry program planning/development/deployment ([🔗Related Post](https://viniu.info/post/Appium)).
   - **Verilog**: Digital circuit and CPU conceptual design.
 - **Hardware & Boards**
@@ -92,9 +103,9 @@ thumbnail: sugar.webp
   - FreeRTOS, Embedded Linux (Yocto Project), Ubuntu.
 - **Modeling & Design Tools**
   - **Autodesk Inventor**: Packaging design for Aquamonitor, Navizam, Home Appliance Alarm, CECOM4CUT.
-  - **Autodesk Fusion**: Aquamonitor PCB Layout Design.
+  - **Autodesk Fusion / Fusion 360**: Mapmo Shell Design, Aquamonitor PCB Layout Design.
   - **Blender**: [🔗Human upper body model rendering](https://viniu.info/post/Ssomaeck).
   - **Figma**: [🔗Personal Blog](https://viniu.info) and [🔗CECOM Website](https://cecom.dev) UI/UX, Aquamonitor & Navizam mobile app design.
   - **Adobe Illustrator**: Club promotional materials and TA problem image creation.
 - **Other Frameworks & Tools**
-  - PyTorch, Next.js, Vivado, OpenCV, YOLOv8.
+  - PyTorch, Next.js, ESP-IDF, Vivado, OpenCV, YOLOv8.
