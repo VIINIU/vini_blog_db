@@ -192,7 +192,7 @@ DRAM Memory Bus의 Bottle Neck을 줄이고, 메모리 트랜잭션을 최소화
 
 *Figure 7. Quad-tree 클러스터링을 이용한 Compressor*
 
-- Zero Feature 값들이 특정 행렬 영역에 클러스터링되어 뭉쳐 있는 공간 특성을 계층적으로 스캔하기 위해 **Level 2 $\rightarrow$ Level 1 $\rightarrow$ Level 0 구조의 Quad-tree** Meta-data 기법을 사용한다.
+- Zero Feature 값들이 특정 행렬 영역에 클러스터링되어 뭉쳐 있는 공간 특성을 계층적으로 스캔하기 위해 **Level 2 -> Level 1 -> Level 0 구조의 Quad-tree** Meta-data 기법을 사용한다.
 - 스트림 포맷 데이터 구조 실시간 디코더 하드웨어가 읽어 들이는 압축 스트림 포맷은 다음과 같이 엄격하게 정렬되어 직렬화된다.
     - Stream Length | 전체 Data Stream length
     - Truncated Nonzero Bitwidth | 유효 데이터들의 bit precision
@@ -222,7 +222,7 @@ Indexing metadata와 Non-zero 데이터만 DRAM에 저장하고, 코어로 전�
 ENN toolchain은 유저가 설계한 model 가속을 위해 프론트엔드부터 커널 드라이버까지 전체 워크로드를 따라 구성되어있다.
 
 - Samsung ConVersion Tool (SCVT) 
-    PyTorch, TensorFlow, ONNX 및 Caffe model을 입력받아 최적의 전처리를 수행한다. 복잡도가 높은 컴비네이션 오퍼레이션을 단순화하는 그래프 최적화(예: `SpaceToBatchND` + `Conv2D` + `BatchToSpaceND` $\rightarrow$ `Dilated Conv`로 완전 치환)를 수행하며, 무의미한 `Add`/`Mul`/`Activation` 레이어들을 가중치 및 바이어스 내부로 접어 넣는 Folding 최적화를 감행한다.
+    PyTorch, TensorFlow, ONNX 및 Caffe model을 입력받아 최적의 전처리를 수행한다. 복잡도가 높은 컴비네이션 오퍼레이션을 단순화하는 그래프 최적화(예: `SpaceToBatchND` + `Conv2D` + `BatchToSpaceND` -> `Dilated Conv`로 완전 치환)를 수행하며, 무의미한 `Add`/`Mul`/`Activation` 레이어들을 가중치 및 바이어스 내부로 접어 넣는 Folding 최적화를 감행한다.
 - MQ Tools 
     NPU에서 모델을 돌리기 위해서는 Quantization이 필수적인데 이에 필요한 툴들이다.
     1. *Profiling*  |  샘플 데이터를 입력해 각 Channel과 Layer의 Activation의 통계적 분포 데이터를 추출
