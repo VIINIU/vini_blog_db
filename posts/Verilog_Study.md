@@ -1,13 +1,12 @@
 ---
+
 title:  "Verilog HDL Group Study"
 date:   2025-04-12
 category: Hardware Design
 project: Study
 pinned: true
 thumbnail: Verilog_Study/Verilog_Study_1.png
---- 
-
-
+---
 ## ✔ 세부 사항
 
 ---

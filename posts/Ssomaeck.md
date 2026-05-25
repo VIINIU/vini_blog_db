@@ -1,13 +1,12 @@
 ---
+
 title: 쏘맥제조기 프로젝트
 date: 2025-02-28
 category: 3D Modeling & Design
 project: 쏘맥제조기
 overview: True
-thumbnail: Ssomaeck/Ssomaeck_1.jpg 
+thumbnail: Ssomaeck/Ssomaeck_1.jpg
 ---
-
-
 ## 부제 : 유용민군 졸업선물 프로젝트
 
 

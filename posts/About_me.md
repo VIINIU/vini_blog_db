@@ -1,11 +1,12 @@
 ---
+
 title:  "About Me"
 date:   2026-05-22
 category: About Me
 thumbnail: About_me/About_me_1.webp
 
-project:--- 
-
+project:
+---
 <span style="display:inline-flex; align-items:center;">
   <img src="/images/About_me/About_me_1.webp" width="30%" style="border-radius:100%;"> 
   Hello! Nice to meet you. <br/> 

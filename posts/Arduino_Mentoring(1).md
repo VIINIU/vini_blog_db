@@ -1,4 +1,5 @@
 ---
+
 title: Arduino Mentoring ( 1 ) w.ESP32
 date: 2024-10-13
 author: VINI
@@ -6,7 +7,6 @@ category: Embedded & IoT
 project: Study
 thumbnail: Arduino_Mentoring(1)/Arduino_Mentoring(1)_1.jpg
 ---
-
 ### 회차별 Summary
 --- 
 

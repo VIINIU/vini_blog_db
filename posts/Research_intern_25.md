@@ -1,4 +1,5 @@
 ---
+
 title : FPGA Based KWS System
 date : 2026-01-20
 category : AI & Deep Learning
@@ -6,7 +7,6 @@ project: Internship
 pinned : true
 thumbnail: Research_intern_25/Research_intern_25_1.png
 ---
-
 ### ✔ 연구 배경 및 목적
 
 2025년도 2학기 차세대 반도체 혁신융합대학 사업단 주관 학부생 연구인턴 프로그램에 참여했다. 선우경 교수님 연구실에서 SNN과 FPGA를 활용한 Wake-word Spotting(WWS) 시스템 구현을 연구 주제로 선정했다. 인턴십은 비대면으로 진행되었으며, 2주 단위의 피드백 방식으로 운영되었다.

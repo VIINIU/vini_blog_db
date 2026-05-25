@@ -1,4 +1,5 @@
 ---
+
 title : Mapmo 위치 기반 메모 연동 하드웨어 키링 개발
 date : 2026-03-25
 category : Embedded & IoT
@@ -6,7 +7,6 @@ project: Mapmo
 pinned : true
 thumbnail: Mapmo/Mapmo_1.jpeg
 ---
-
 ### ✔ 프로젝트 개요: Map your memo
 
 Mapmo(Map your memo)는 실제 지도 위의 특정 장소와 메모를 결합한 위치 기반 메모 서비스다. 사용자가 미리 설정해둔 장소에 도착하면 해당 장소에서 수행해야 할 할 일이나 메모가 자동으로 표시되는 기능을 핵심으로 한다. 

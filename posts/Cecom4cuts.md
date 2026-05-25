@@ -1,4 +1,5 @@
 ---
+
 title: CECOM4CUT
 date: 2024-10-13
 author: VINI
@@ -8,7 +9,6 @@ overview: true
 thumbnail: /Cecom4cuts/Cecom4cuts_1.jpg
 pinned: true
 ---
-
 ### ✔ CECOM4CUT 이란
 
 ---

@@ -1,10 +1,10 @@
 ---
+
 title:  "Appium, Python 활용 앱 조작 자동화하기"
 date:   2025-08-19
 category: Software & Automation
 project: Study
---- 
-
+---
 ### ✔ APPIUM 이란
 ---
  - Selenium으로 웹 크롤링하듯 에뮬레이터나 휴대전화에 연결하여 앱 UI요소들을 자동으로 조작할 수 있도록 하는 소프트웨어

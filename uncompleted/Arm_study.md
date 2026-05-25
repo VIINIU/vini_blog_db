@@ -1,4 +1,5 @@
 ---
+
 title: ARM Architecture Study (1)
 date: 2026-02-19
 category: Hardware Design
@@ -6,8 +7,6 @@ project: Study
 overview: true
 # thumbnail: none
 ---
-
-
 ### 📝 시~작
 
 Telechips 인턴 도중 팀장님께서 인턴들의 발표를 들으시곤 ISA는 무엇이며, RISC와 CISC의 차이는 무엇인지, 또 TOPST 보드는 어떤 아키텍처를 기반으로 하는 지에 대해 알려주셨다.

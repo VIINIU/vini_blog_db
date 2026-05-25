@@ -1,4 +1,5 @@
 ---
+
 title: Linux Master
 date: 2025-04-28
 category: Linux & OS
@@ -6,7 +7,6 @@ project: Study
 thumbnail: Linux_Master/Linux_Master_1.jpg
 overview: true
 ---
-
 ![Linux Master](/images/Linux_Master/Linux_Master_1.jpg)
 
 

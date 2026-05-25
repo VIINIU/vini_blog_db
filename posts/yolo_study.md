@@ -1,11 +1,11 @@
 ---
+
 title : YOLO Study
 date : 2025-08-13
 category : AI & Deep Learning
 project: Study
 pinned : true
 ---
-
 ## YOLO 공부
 
 ### YOLO Input Image

@@ -1,11 +1,11 @@
 ---
+
 title:  Arduino Mentoring ( 2 ) w.ESP32
 date: 2024-10-15
 category: Embedded & IoT
 thumbnail : Arduino_Mentoring(2)/Arduino_Mentoring(2)_1.jpg
 project: Study
 ---
-
 ### 멘토링 회차별 Summary 3-5회차
 
 3회차 이후에는 모두 실습위주의 멘토링이 진행되어 대체로 사용되는 부품에 대해 소개 후 코드를 직접 작성해보는 순서로 멘도링을 진행하였다.

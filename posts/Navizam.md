@@ -1,4 +1,5 @@
 ---
+
 title: 분리수면 매니저 나비잠
 date: 2023-10-22
 category: Embedded & IoT
@@ -6,7 +7,6 @@ project: Navizam
 overview: true
 thumbnail: Navizam/Navizam_1.jpg
 ---
-
 ### ✔ 분리수면 매니저 나비잠이란
 
 ---
