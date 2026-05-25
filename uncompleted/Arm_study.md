@@ -1,8 +1,8 @@
 ---
 title: ARM Architecture Study (1)
 date: 2026-02-19
-category: ARM RISC
-project: ARM Architecture Study
+category: Hardware Design
+project: Study
 overview: true
 # thumbnail: none
 ---

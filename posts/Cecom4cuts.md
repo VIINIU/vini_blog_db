@@ -2,10 +2,10 @@
 title: CECOM4CUT
 date: 2024-10-13
 author: VINI
-category: Raspberry Pi, ESP32, IoT
+category: Embedded & IoT
 project: CECOM4CUT
 overview: true
-thumbnail: /cecom4cut/cecom4cut_example.jpg
+thumbnail: /Cecom4cuts/Cecom4cuts_1.jpg
 pinned: true
 ---
 
@@ -40,6 +40,6 @@ pinned: true
 
 **Version2의 작동 결과(왼쪽) 과 디바이스 구성 (오른쪽)**
  <div class="img-row">
-<img src="/images/cecom4cut/cecom4cut_example.jpg"  width="49%"/>
-<img src="/images/cecom4cut/cecom4cut_device.jpg"  width="49%"/>
+<img src="/images/Cecom4cuts/Cecom4cuts_1.jpg"  width="49%"/>
+<img src="/images/Cecom4cuts/Cecom4cuts_2.jpg"  width="49%"/>
 </div>

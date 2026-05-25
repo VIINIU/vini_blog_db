@@ -1,10 +1,10 @@
 ---
 title: Aquamonitor
 date: 2024-10-13
-category: ESP32, IoT
+category: Embedded & IoT
 project: Aquamonitor
 overview: true
-thumbnail: aquamonitor/1.jpg
+thumbnail: AquaMonitor/AquaMonitor_1.jpg
 ---
 
 
@@ -40,16 +40,16 @@ thumbnail: aquamonitor/1.jpg
 
 
 <div class="img-row">
-    <img src="/images/aquamonitor/1.jpg"  width="49%"/>
-    <img src="/images/aquamonitor/3.jpg"  width="49%"/>
+    <img src="/images/AquaMonitor/AquaMonitor_1.jpg"  width="49%"/>
+    <img src="/images/AquaMonitor/AquaMonitor_2.jpg"  width="49%"/>
 </div>
 <div class="img-row">
-    <img src="/images/aquamonitor/2.jpg"  width="49%"/>
-    <img src="/images/aquamonitor/6.jpg"  width="49%"/>
+    <img src="/images/AquaMonitor/AquaMonitor_3.jpg"  width="49%"/>
+    <img src="/images/AquaMonitor/AquaMonitor_4.jpg"  width="49%"/>
 </div>
 <div class="img-row">
-    <img src="/images/aquamonitor/4.jpg"  width="49%"/>
-    <img src="/images/aquamonitor/5.jpg"  width="49%"/>
+    <img src="/images/AquaMonitor/AquaMonitor_5.jpg"  width="49%"/>
+    <img src="/images/AquaMonitor/AquaMonitor_6.jpg"  width="49%"/>
 </div>
 
 
@@ -59,16 +59,16 @@ thumbnail: aquamonitor/1.jpg
 
 **HW 결과물**
 
-![자석을 부착하여 함께 제공되는 텀블러와 붙여서 활용할 수 있도록 디자인](/images/aquamonitor/20241002_182217.jpg)
+![자석을 부착하여 함께 제공되는 텀블러와 붙여서 활용할 수 있도록 디자인](/images/AquaMonitor/AquaMonitor_7.jpg)
 
 자석을 부착하여 함께 제공되는 텀블러와 붙여서 활용할 수 있도록 디자인
 
-![함께 제공된 텀블러가 아닌 다른 텀블러와 함께 코스터로 활용하는 모습](/images/aquamonitor/20240913_145006.jpg)
+![함께 제공된 텀블러가 아닌 다른 텀블러와 함께 코스터로 활용하는 모습](/images/AquaMonitor/AquaMonitor_8.jpg)
 
 함께 제공된 텀블러가 아닌 다른 텀블러와 함께 코스터로 활용하는 모습
 
 **발표 당일 부스 설명 자료**
 <div class="img-row">
-    <img src="/images/aquamonitor/20241002_172741.jpg"  width="49%"/>
-    <img src="/images/aquamonitor/20241002_172747.jpg"  width="49%"/>
+    <img src="/images/AquaMonitor/AquaMonitor_9.jpg"  width="49%"/>
+    <img src="/images/AquaMonitor/AquaMonitor_10.jpg"  width="49%"/>
 </div>

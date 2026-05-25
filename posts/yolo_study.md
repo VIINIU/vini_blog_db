@@ -1,7 +1,7 @@
 ---
 title : YOLO Study
 date : 2025-08-13
-category : YOLO, CNN
+category : AI & Deep Learning
 project: Study
 pinned : true
 ---
@@ -30,52 +30,52 @@ pinned : true
 - normalization method
     - [0,1] 사이의 값이 되도록 scale
         
-       <img src="/images/yolo/image.png"  width="49%"/>
+       <img src="/images/yolo_study/yolo_study_1.png"  width="49%"/>
         
-        <img src="/images/yolo/Untitled.png"  width="49%"/>
+        <img src="/images/yolo_study/yolo_study_2.png"  width="49%"/>
         
     - Whitening
         - data가 zeromean(**μ=0**) and unit variance(**σ=1**)를 갖도록 scale → 이러면 구모양 분포가 됨
             
-            <img src="/images/yolo/image%201.png"  width="49%"/>
+            <img src="/images/yolo_study/yolo_study_3.png"  width="49%"/>
             
-            <img src="/images/yolo/Untitled%201.png"  width="49%"/>
+            <img src="/images/yolo_study/yolo_study_4.png"  width="49%"/>
             
 
 ### Maxpooling
 
-<img src="/images/yolo/image%202.png"  width="49%"/>
+<img src="/images/yolo_study/yolo_study_5.png"  width="49%"/>
 
 - conv layer에서 이미지 사이즈를 줄여서 선명하고 중요한 feature만 남겨서 강조하는 것
     - 각 칸의 가장 큰 값을 남김!
 - 보통 2x2로 화면 전역에 적용
 - stride 2 → 좌우로 몇칸 뛸지 결정
 
-<img src="/images/yolo/Untitled%202.png"  width="49%"/>
+<img src="/images/yolo_study/yolo_study_6.png"  width="49%"/>
 
 Ex) Max pooling on 4 x 4 Output Activation (Pooling window = 2 x 2
 
 - Max-Pooling after Convolution - Example
 
-<img src="/images/yolo/Untitled%203.png"  width="49%"/>
+<img src="/images/yolo_study/yolo_study_7.png"  width="49%"/>
 
 Layer 0→1
 
-<img src="/images/yolo/Untitled%204.png"  width="49%"/>
+<img src="/images/yolo_study/yolo_study_8.png"  width="49%"/>
 
  Layer 4→5
 
-<img src="/images/yolo/Untitled%205.png"  width="49%"/>
+<img src="/images/yolo_study/yolo_study_9.png"  width="49%"/>
 
  Layer 2→3
 
-<img src="/images/yolo/Untitled%206.png"  width="49%"/>
+<img src="/images/yolo_study/yolo_study_10.png"  width="49%"/>
 
 ### Activation
 
 - ReLU
     
-    <img src="/images/yolo/Untitled%207.png"  width="49%"/>
+    <img src="/images/yolo_study/yolo_study_11.png"  width="49%"/>
     
     - ReLU는 negative에 대해서 모두 0
         
@@ -92,7 +92,7 @@ Layer 0→1
 
 - **Unified Detection**
     
-    <img src="/images/yolo/Untitled%208.png"  width="49%"/>
+    <img src="/images/yolo_study/yolo_study_12.png"  width="49%"/>
     
     Redmon, J. et al., 2016. You Only Look Once: Unified, Real-Time Object Detection. In *2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*. pp. 779–788.
     
@@ -106,5 +106,5 @@ Layer 0→1
                 
             - Calculate the **class-specific confidence score for each box**
                 
-                <img src="/images/yolo/Untitled%209.png"  width="49%"/>
+                <img src="/images/yolo_study/yolo_study_13.png"  width="49%"/>
                 

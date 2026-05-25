@@ -1,7 +1,7 @@
 ---
 title:  "Telechips Topst Internship"
 date:   2026-02-06
-category: Linux
+category: Linux & OS
 project: Internship
 pinned: true
 --- 
@@ -137,7 +137,7 @@ AI-G에서는 앞에 놓이는 사물을 감지하고 후처리 박스의 좌표
 
 구상과 구현 모든 단계에서 가장 신경 쓴 부분은 모든 동작이 동시에 수행 가능하도록 최대한 쪼개어 멀티 Thread, Task 형태로 돌려 모든 동작의 안정적인 수행을 보장하도록 하는 것이었다. D3-G에서 돌아갈 전체 제어 Python의 경우 Thread를 여러 개 여는 방식으로 제어하여 장애물 인식과 조향 제어, 브레이크 제어부가 서로 겹치지 않고 동시에 돌아갈 수 있도록 구현하였다.
 
-<img src="/images/telechips_internship/system_diagram.png" width="100%" alt=""/>
+<img src="/images/Telechips_Internship/Telechips_Internship_1.png" width="100%" alt=""/>
 
 위 이미지에서 볼 수 있듯 D3-G에서 돌아가는 Thread는 총 6개이다. 이 스케일카 제어에서 내가 맡은 부분은 다음과 같다.
 
@@ -163,7 +163,7 @@ D3-G의 제어 코드의 모든 Thread에 대해서 순서대로 설명해보도
 
     AI-G 보드(Server)에서 YOLOv8을 통해 감지된 객체의 박스 데이터(xmin, ymin, xmax, ymax, class)를 JSON 형식으로 D3-G(Client)에 쏴주면, D3-G는 이 데이터를 파싱하여 실시간으로 장애물의 위치를 판단한다.
 
-    <img src="/images/telechips_internship/obtacle_detect.png" width="100%" alt=""/>
+    <img src="/images/Telechips_Internship/Telechips_Internship_2.png" width="100%" alt=""/>
 
     - 장애물 좌우 위치 판단
         화면 가로 길이를 1 : 0.8 : 1의 비율로 분할하였다. 
@@ -236,11 +236,11 @@ BT RC카의 코드 스터디를 내가 먼저 탐구하고 다른 인턴들에�
 
 
 <div class="img-row">
-    <img src="/images/telechips_internship/start_me.png"  width="49%"/>
-    <img src="/images/telechips_internship/last_me.png"  width="49%"/>
+    <img src="/images/Telechips_Internship/Telechips_Internship_3.png"  width="49%"/>
+    <img src="/images/Telechips_Internship/Telechips_Internship_4.png"  width="49%"/>
 </div>
 <div class="img-row">
-    <img src="/images/telechips_internship/hoisick.png"  width="33%"/>
-    <img src="/images/telechips_internship/us.png"  width="33%"/>
-    <img src="/images/telechips_internship/last.png"  width="33%"/>
+    <img src="/images/Telechips_Internship/Telechips_Internship_5.png"  width="33%"/>
+    <img src="/images/Telechips_Internship/Telechips_Internship_6.png"  width="33%"/>
+    <img src="/images/Telechips_Internship/Telechips_Internship_7.png"  width="33%"/>
 </div>

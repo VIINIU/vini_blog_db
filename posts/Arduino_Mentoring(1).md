@@ -2,9 +2,9 @@
 title: Arduino Mentoring ( 1 ) w.ESP32
 date: 2024-10-13
 author: VINI
-category: ESP32
-project: Mentoring
-thumbnail: AM49.jpg
+category: Embedded & IoT
+project: Study
+thumbnail: Arduino_Mentoring(1)/Arduino_Mentoring(1)_1.jpg
 ---
 
 ### 회차별 Summary
@@ -30,20 +30,20 @@ CECOM의 '24-2 운영진 첫회의에서 CECOM의 앞으로의 진행 방향에 
 #### 💻 멘토링 1회차 (9/29)
 - **간단한 자기소개 시간**
 <div class="img-row">
-    <img src="/images/AM/AM1.jpg"  width="49%"/>
-    <img src="/images/AM/AM2.jpg"  width="49%"/>
+    <img src="/images/Arduino_Mentoring(1)/Arduino_Mentoring(1)_2.jpg"  width="49%"/>
+    <img src="/images/Arduino_Mentoring(1)/Arduino_Mentoring(1)_3.jpg"  width="49%"/>
 </div>
 <div class="img-row">
-    <img src="/images/AM/AM3.jpg"  width="49%"/>
-    <img src="/images/AM/AM4.jpg"  width="49%"/>
+    <img src="/images/Arduino_Mentoring(1)/Arduino_Mentoring(1)_4.jpg"  width="49%"/>
+    <img src="/images/Arduino_Mentoring(1)/Arduino_Mentoring(1)_5.jpg"  width="49%"/>
 </div>
 <div class="img-row">
-    <img src="/images/AM/AM5.jpg"  width="49%"/>
-    <img src="/images/AM/AM6.jpg"  width="49%"/>
+    <img src="/images/Arduino_Mentoring(1)/Arduino_Mentoring(1)_6.jpg"  width="49%"/>
+    <img src="/images/Arduino_Mentoring(1)/Arduino_Mentoring(1)_7.jpg"  width="49%"/>
 </div>
 <div class="img-row">
-    <img src="/images/AM/AM7.jpg"  width="49%"/>
-    <img src="/images/AM/AM8.jpg"  width="49%"/>
+    <img src="/images/Arduino_Mentoring(1)/Arduino_Mentoring(1)_8.jpg"  width="49%"/>
+    <img src="/images/Arduino_Mentoring(1)/Arduino_Mentoring(1)_9.jpg"  width="49%"/>
 </div>
 
 - **아두이노 멘토링이 필수여야 한다고 생각했던 이유**
@@ -102,16 +102,16 @@ CECOM의 '24-2 운영진 첫회의에서 CECOM의 앞으로의 진행 방향에 
 #### 💻 멘토링 2회차 (10/7)
 
 <div class="img-row">
-    <img src="/images/AM/AM12.jpg"  width="49%"/>
-    <img src="/images/AM/AM13.jpg"  width="49%"/>
+    <img src="/images/Arduino_Mentoring(1)/Arduino_Mentoring(1)_10.jpg"  width="49%"/>
+    <img src="/images/Arduino_Mentoring(1)/Arduino_Mentoring(1)_11.jpg"  width="49%"/>
 </div>
 <div class="img-row">
-    <img src="/images/AM/AM14.jpg"  width="49%"/>
-    <img src="/images/AM/AM15.jpg"  width="49%"/>
+    <img src="/images/Arduino_Mentoring(1)/Arduino_Mentoring(1)_12.jpg"  width="49%"/>
+    <img src="/images/Arduino_Mentoring(1)/Arduino_Mentoring(1)_13.jpg"  width="49%"/>
 </div>
 <div class="img-row">
-    <img src="/images/AM/AM16.jpg"  width="49%"/>
-    <img src="/images/AM/AM17.jpg"  width="49%"/>
+    <img src="/images/Arduino_Mentoring(1)/Arduino_Mentoring(1)_14.jpg"  width="49%"/>
+    <img src="/images/Arduino_Mentoring(1)/Arduino_Mentoring(1)_15.jpg"  width="49%"/>
 </div>
 
 

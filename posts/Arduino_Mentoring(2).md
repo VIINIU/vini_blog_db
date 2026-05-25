@@ -1,9 +1,9 @@
 ---
 title:  Arduino Mentoring ( 2 ) w.ESP32
 date: 2024-10-15
-category: ESP32 
-thumbnail : AM49.jpg
-project: Mentoring 
+category: Embedded & IoT
+thumbnail : Arduino_Mentoring(2)/Arduino_Mentoring(2)_1.jpg
+project: Study
 ---
 
 ### 멘토링 회차별 Summary 3-5회차
@@ -13,16 +13,16 @@ project: Mentoring
 
 #### 💻 멘토링 3회차
  <div class="img-row">
-<img src="/images/AM/AM19.jpg"  width="49%"/>
-<img src="/images/AM/AM20.jpg"  width="49%"/>
+<img src="/images/Arduino_Mentoring(2)/Arduino_Mentoring(2)_2.jpg"  width="49%"/>
+<img src="/images/Arduino_Mentoring(2)/Arduino_Mentoring(2)_3.jpg"  width="49%"/>
 </div>
  <div class="img-row">
-<img src="/images/AM/AM21.jpg"  width="49%"/>
-<img src="/images/AM/AM22.jpg"  width="49%"/>
+<img src="/images/Arduino_Mentoring(2)/Arduino_Mentoring(2)_4.jpg"  width="49%"/>
+<img src="/images/Arduino_Mentoring(2)/Arduino_Mentoring(2)_5.jpg"  width="49%"/>
 </div>
  <div class="img-row">
-<img src="/images/AM/AM23.jpg"  width="49%"/>
-<img src="/images/AM/AM24.jpg"  width="49%"/>
+<img src="/images/Arduino_Mentoring(2)/Arduino_Mentoring(2)_6.jpg"  width="49%"/>
+<img src="/images/Arduino_Mentoring(2)/Arduino_Mentoring(2)_7.jpg"  width="49%"/>
 </div>
 
 - **모터 종류 소개**
@@ -55,24 +55,24 @@ project: Mentoring
 #### 💻 멘토링 4, 5회차
 
  <div class="img-row">
-<img src="/images/AM/AM25.jpg"  width="49%"/>
-<img src="/images/AM/AM26.jpg"  width="49%"/>
+<img src="/images/Arduino_Mentoring(2)/Arduino_Mentoring(2)_8.jpg"  width="49%"/>
+<img src="/images/Arduino_Mentoring(2)/Arduino_Mentoring(2)_9.jpg"  width="49%"/>
 </div>
  <div class="img-row">
-<img src="/images/AM/AM27.jpg"  width="49%"/>
-<img src="/images/AM/AM28.jpg"  width="49%"/>
+<img src="/images/Arduino_Mentoring(2)/Arduino_Mentoring(2)_10.jpg"  width="49%"/>
+<img src="/images/Arduino_Mentoring(2)/Arduino_Mentoring(2)_11.jpg"  width="49%"/>
 </div>
  <div class="img-row">
-<img src="/images/AM/AM29.jpg"  width="49%"/>
-<img src="/images/AM/AM30.jpg"  width="49%"/>
+<img src="/images/Arduino_Mentoring(2)/Arduino_Mentoring(2)_12.jpg"  width="49%"/>
+<img src="/images/Arduino_Mentoring(2)/Arduino_Mentoring(2)_13.jpg"  width="49%"/>
 </div>
  <div class="img-row">
-<img src="/images/AM/AM31.jpg"  width="49%"/>
-<img src="/images/AM/AM32.jpg"  width="49%"/>
+<img src="/images/Arduino_Mentoring(2)/Arduino_Mentoring(2)_14.jpg"  width="49%"/>
+<img src="/images/Arduino_Mentoring(2)/Arduino_Mentoring(2)_15.jpg"  width="49%"/>
 </div>
  <div class="img-row">
-<img src="/images/AM/AM33.jpg"  width="49%"/>
-<img src="/images/AM/AM35.jpg"  width="49%"/>
+<img src="/images/Arduino_Mentoring(2)/Arduino_Mentoring(2)_16.jpg"  width="49%"/>
+<img src="/images/Arduino_Mentoring(2)/Arduino_Mentoring(2)_17.jpg"  width="49%"/>
 </div>
 
 - **택트 스위치의 사용방법**
@@ -103,4 +103,4 @@ project: Mentoring
   - 모터는 그릇이 올라가는 판 아래 설치
   - 웜기어 사용하여 회전 방향을 수직으로 바꿔주도록 설계함
 
-<img src="/images/AM/AM49.jpg"  width="70%"/>
+<img src="/images/AM/Arduino_Mentoring(2)/Arduino_Mentoring(2)_1.jpg"  width="70%"/>

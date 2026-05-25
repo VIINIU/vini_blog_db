@@ -1,7 +1,7 @@
 ---
 title : SNN WWS Project
 date : 2025-11-19
-category : SNN
+category : AI & Deep Learning
 project: Study
 pinned : true
 ---

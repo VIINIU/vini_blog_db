@@ -1,10 +1,10 @@
 ---
 title : Mapmo 위치 기반 메모 연동 하드웨어 키링 개발
 date : 2026-03-25
-category : Embedded, Hardware
+category : Embedded & IoT
 project: Mapmo
 pinned : true
-thumbnail: Mapmo/mapmo_keyring.jpeg
+thumbnail: Mapmo/Mapmo_1.jpeg
 ---
 
 ### ✔ 프로젝트 개요: Map your memo
@@ -39,12 +39,12 @@ FreeRTOS 환경에서는 디스플레이 벤더에서 제공하는 표준 그래
 **3. RF 초기화 시 전력 급증 문제 해결 (Infinite Reboot)**
 BLE 통신을 위한 RF 초기화 실행 시, 순간적인 소비 전력 급증으로 인해 보드가 무한 리부트되는 이슈가 발생했다. 이를 해결하기 위해 RF 초기화 데이터(RF Init Data)를 별도의 NVS(Non-Volatile Storage) 파티션에 미리 저장하여 초기화 과정에서의 전력 부하를 분산시키는 방식으로 문제를 해결했다.
 
-<img src="/images/Mapmo/mapmo_double.png" width="40%" alt="하드웨어 및 앱 연동 구조"/>
+<img src="/images/Mapmo/Mapmo_2.png" width="40%" alt="하드웨어 및 앱 연동 구조"/>
 
 ### 🚩 현재 진행 상황 및 향후 계획
 
 현재는 BLE 통신을 통한 데이터 수신 및 디스플레이 출력 로직의 안정화 단계에 있다. 하드웨어의 시각적 완성도를 높이기 위해 대기 화면 및 전용 도트 폰트를 디자인하고 있으며, Fusion 360을 활용하여 실제 키링으로 휴대 가능한 전용 쉘(Shell) 모델링을 진행 중이다.
 
-<img src="/images/Mapmo/MAPMO_new.gif" width="100%" alt="Mapmo 하드웨어 동작 애니메이션"/>
+<img src="/images/Mapmo/Mapmo_3.gif" width="100%" alt="Mapmo 하드웨어 동작 애니메이션"/>
 
 향후 모바일 앱의 실시간 위치 알림 기능과 연동하여, 사용자가 특정 구역 진입 시 즉각적으로 키링의 디스플레이가 갱신되도록 시스템을 고도화할 예정이다.

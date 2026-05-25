@@ -1,8 +1,8 @@
 ---
 title:  "Appium, Python 활용 앱 조작 자동화하기"
 date:   2025-08-19
-category: Python, Appium
-project: APP_Crawler
+category: Software & Automation
+project: Study
 --- 
 
 ### ✔ APPIUM 이란
@@ -100,8 +100,8 @@ Python은 거의 처음 써보는 상황이었고, C/C++ 이외의 개발 경험
 
 
 <div class="img-row">
-    <img src="/images/appium/inspector1.jpg"  width="32%"/>
-    <img src="/images/appium/inspector2.jpg"  width="66%"/>
+    <img src="/images/Appium/Appium_1.jpg"  width="32%"/>
+    <img src="/images/Appium/Appium_2.jpg"  width="66%"/>
 </div>
 
 짜잔... 

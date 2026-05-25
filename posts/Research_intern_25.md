@@ -1,10 +1,10 @@
 ---
 title : FPGA Based KWS System
 date : 2026-01-20
-category : SNN, FPGA, Verilog
-project: Research Intern
+category : AI & Deep Learning
+project: Internship
 pinned : true
-thumbnail: Research_Intern_25/sif2026.png
+thumbnail: Research_intern_25/Research_intern_25_1.png
 ---
 
 ### ✔ 연구 배경 및 목적

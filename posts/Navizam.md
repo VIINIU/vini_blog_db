@@ -1,10 +1,10 @@
 ---
 title: 분리수면 매니저 나비잠
 date: 2023-10-22
-category: ESP32, IoT
+category: Embedded & IoT
 project: Navizam
 overview: true
-thumbnail: navizam/20231005_174337.jpg
+thumbnail: Navizam/Navizam_1.jpg
 ---
 
 ### ✔ 분리수면 매니저 나비잠이란
@@ -40,21 +40,21 @@ thumbnail: navizam/20231005_174337.jpg
 
 ---
 
-![7.jpg](/images/navizam/7.jpg)
+![7.jpg](/images/Navizam/Navizam_2.jpg)
 
-![8.jpg](/images/navizam/8.jpg)
+![8.jpg](/images/Navizam/Navizam_3.jpg)
 
 - 심박 / 산소포화도 측정을 통한 수면 중 실식 위험 감지알림
 - 틸트센서를 통한 수면 중 뒤집기 관측 알림
 
-![9.jpg](/images/navizam/9.jpg)
+![9.jpg](/images/Navizam/Navizam_4.jpg)
 
-![10.jpg](/images/navizam/10.jpg)
+![10.jpg](/images/Navizam/Navizam_5.jpg)
 
 - UWB 센서를 이용한 비콘 → 집 내부에서의 아이의 움직임 관측
 - 관측한 아이의 움직임에 따른 캠 트래킹
 
-![11.jpg](/images/navizam/11.jpg)
+![11.jpg](/images/Navizam/Navizam_6.jpg)
 
 - 안드로이드 스튜디오를 이용하여 앱 개발
 
@@ -62,9 +62,9 @@ thumbnail: navizam/20231005_174337.jpg
 
 ---
 
-![20231005_174337.jpg](/images/navizam/20231005_174337.jpg)
+![20231005_174337.jpg](/images/Navizam/Navizam_1.jpg)
 
-![1696581023925.jpg](/images/navizam/1696581023925.jpg)
+![1696581023925.jpg](/images/Navizam/Navizam_7.jpg)
 
 - **한계점**
     

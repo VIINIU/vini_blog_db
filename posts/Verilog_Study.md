@@ -1,10 +1,10 @@
 ---
 title:  "Verilog HDL Group Study"
 date:   2025-04-12
-category: Verilog
+category: Hardware Design
 project: Study
 pinned: true
-thumbnail: verilog_study/thumbnail.png
+thumbnail: Verilog_Study/Verilog_Study_1.png
 --- 
 
 
@@ -49,7 +49,7 @@ thumbnail: verilog_study/thumbnail.png
 
 - Verilog 구성
     
-    <img src="/images/verilog_study/image.png"  width="49%"/>
+    <img src="/images/Verilog_Study/Verilog_Study_2.png"  width="49%"/>
     
     - Constrain : 해당 모듈이 silicon에서 차지할 Area, timing, power, testability
     
@@ -424,7 +424,7 @@ thumbnail: verilog_study/thumbnail.png
     endmodule
     ```
     
-    <img src="/images/verilog_study/96d05a99-9e4c-4ba2-91e7-fcff2be046c7.png"  width="49%"/>
+    <img src="/images/Verilog_Study/Verilog_Study_3.png"  width="49%"/>
     
 - **자동 물주기 시스템**
     
@@ -502,7 +502,7 @@ thumbnail: verilog_study/thumbnail.png
             
         - **k-map**
             
-            <img src="/images/verilog_study/8fa16e56-215f-4fd2-9350-fd048b4c048f.png"  width="49%"/>
+            <img src="/images/Verilog_Study/Verilog_Study_4.png"  width="49%"/>
             
         - **정리**
             

@@ -1,13 +1,13 @@
 ---
 title: Linux Master
 date: 2025-04-28
-category: LINUX
-project: Certification
-thumbnail: linux.jpg
+category: Linux & OS
+project: Study
+thumbnail: Linux_Master/Linux_Master_1.jpg
 overview: true
 ---
 
-![Linux Master](/images/linux.jpg)
+![Linux Master](/images/Linux_Master/Linux_Master_1.jpg)
 
 
 ### 👀 리눅스 마스터를 준비하게 된 계기
