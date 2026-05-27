@@ -36,13 +36,28 @@ PC 환경에서 학습된 Float32 가중치를 FPGA에 포팅하기 위해 INT8�
 ### SNN 가속기 하드웨어 아키텍처 설계 및 구현
 
 <img src="/images/Research_intern_25/Research_intern_25_2.png" width="100%"/>
-*SNN 가속기 하드웨어 아키텍처*
+Figure 2. System HW Architecture
 
 Python으로 구성된 모델 아키텍처를 Verilog로 재구성하였다. 초기 계획은 위 이미지의 음성의 전처리부도 FPGA상에 구현하는 것이었기 때문에 음성을 받아와 FFT 하는 모듈을 설계하였다. 이후 SNN 모델과 LIF 뉴런 레이어 들을 모두 verilog 모듈로 구현하고, UART 통신과 LED를 통해 FPGA상에서 타겟 키워드의 검출 결과를 PC로 재전송하도록 모듈을 구성하였다.
+
+ <div class="img-row">
+    <img src="/images/Research_intern_25/Research_intern_25_3.png" 
+    width="49%"/>
+    <br/>
+    Figure 3. Verilog SNN Modules
+    <img src="/images/Research_intern_25/Research_intern_25_4.png" 
+    width="49%"/>
+    <br/>
+    Figure 4. (도입되지 못한) Verilog SNN 오디오 전처리 모듈..ㅠㅠ
+</div>
 
 중간중간 TestBench를 통해 개별 모듈의 정상 동작을 확인하였으며, 데이터 전처리를 담당하는 Top module과 뉴런 레이어를 구성하는 Top module 각각의 중간 확인을 마친 상태라 문제 없이 끝날 것으로 생각되었다. 하지만, 모든 모듈을 하나의 Top Module로 합치는 과정에서 문제가 생겼다. Top Module에서 Clock을 준수하는 Layout 합성이 불가능했다. Pipe lining을 통해 연산 유닛의 동시사용을 최소화하는 등의 여러 노력을 하였으나, 학부생 연구인턴 마감일이 다가와 결국 PC에서 음성 전처리를 수행한 후 결과로 나온 Spike Train을 FPGA로 전송하면 FPGA 상에서는 Spike Train을 가지고 가중치를 통과하는 SNN Layer 연산만을 수행하도록 재구성하였다.
 
 ### 결과 및 소회
+
+<img src="/images/Research_intern_25/Research_intern_25_5.png" 
+    width="70%"/>
+Figure 5. SNN 모델 FPGA 포팅 후 실행 결과
 
 결론적으로 모델 학습 과정에서 충분히 다양한 샘플 데이터를 확보하지 못해 결과적으로 Over-fitting이 발생하기도 했고, 초반에는 Bias 조절과 같은 Neural Network관련 백그라운드가 부족하여 발생한 실수가 많았어서 성공한 프로젝트라고 말하기는 어렵지만, FPGA도, Neural Network 학습도 처음으로 내 손으로 직접해본 프로젝트라 뿌듯한 프로젝트였다. 
 하지만, 음성 전처리부를 PC에서 수행하도록 하여 전체 시스템을 FPGA 상에서 구현하지 못한 점, 모델 트레이닝이 깔끔하지 못했던 점 등 아쉬움이 많이 남았다. 다음 번에는 더 괜찮은 NN 시스템을 구현해보고싶다.
