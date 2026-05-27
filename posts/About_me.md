@@ -21,9 +21,9 @@ project:
 
 ### 💼 Work & Research Experience
 ---
-- **Chung-Ang University | Undergraduate Research Intern** (Mar 2026 – Present)
-  - Researching GPU utilization optimization and hardware acceleration for Large Language Model (LLM) serving under the supervision of Prof. Cheolho Hong.
-- **Telechips | Undergraduate Intern** (Jan 2026)
+- **[Chung-Ang University SSLAB](https://sites.google.com/site/ssatcau) | Undergraduate Research Intern** (Mar 2026 – Present)
+  - Studying GPU utilization optimization for Large Language Model (LLM) serving under the supervision of Prof. Cheolho Hong.
+- **[Telechips](https://www.telechips.com/) | Undergraduate Intern** (Jan 2026)
   - Brought up 3 types of Topst boards (AI-G, D3-G, VCP-G).
   - Developed an autonomous Scale Car utilizing YOLOv8 and OpenCV models for real-time object detection and lane following algorithms.
   - Optimized AI model inference on the Topst NPU board.
@@ -36,19 +36,26 @@ project:
 
 ### 📁 Individual Project / Team Projects
 ---
-- **Mapmo (Map your memo): Location-based Todo Alert Keyring** | Feb 2026 – Present
+- **MINI-V : On-device LLM integration in a custom Android OS** | APR 2026 - Present
+  - Exploring system-level integration of a compact model, leveraging the Hexagon NPU through a vendor-side inference service shared across applications.
+- **Mapmo (Map your memo): Location-based Todo Alert Keyring** | Feb 2026 – Mar 2026
   - **Role | PM & Firmware/Hardware Developer**
   - Developing a location-based task management service that pairs an Android app with a custom low-power keyring device.
   - Engineered firmware using **FreeRTOS** on ESP32 to achieve ultra-low power consumption and real-time task handling.
   - Designing a portable, compact exterior shell using Autodesk Fusion 360.
-- **Personal Technical Blog Development** | Jan 2026 – Feb 2026
-  - **Role | Individual Project**
-  - Built and deployed a personal technical blog ([🔗viniu.info](https://viniu.info)) to serve as an archive for engineering studies and projects.
-  - Designed responsive UI/UX from scratch using Figma and implemented it using Next.js for optimized performance and SEO.
+- **Autonomous Driving Scale Car** | JAN 2026
+  - **Role | Intern**
+  - Telechips Internship
+  - Real-time object detection and lane following using YOLOv8 and OpenCV.
+  - Optimized AI model inference on Topst NPU(AI-G) board.
 - **[🔗FPGA-based SNN Wake-Word Spotting System](https://viniu.info/post/snn_wws)** | Sep 2025 – Dec 2025
   - **Role | Individual Project**
   - Designed and implemented a low-power wake-up call detection system using SNN architecture on an FPGA.
   - Awarded 3rd Place (Encouragement Award) at the Semiconductor Innovation Festival (SIF 2026).
+- **Personal Technical Blog Development** | AUG 2025
+  - **Role | Individual Project**
+  - Built and deployed a personal technical blog [🔗Here](https://viniu.info) to serve as an archive for engineering studies and projects.
+  - Designed responsive UI/UX from scratch using Figma and implemented it using Next.js for optimized performance and SEO.
 - **[🔗Aquamonitor: Beverage Intake Tracker](https://viniu.info/post/AquaMonitor)** | May 2024 – Oct 2024
   - **Role | PM & Hardware Developer, PCB Layout, 3D Modeling**
   - Developed a service that measures and records beverage intake based on weight changes.

@@ -1,12 +1,9 @@
 {
-  "pasteImage.path": "images/${fileBasenameNoExtension}/${fileBasenameNoExtension}_${counter}${fileExt}",
-  "pasteImage.insertPattern": "![${fileBasename}](${filePath})",
-  "pasteImage.forceUnixStyleSeparator": true
-}{
     "pasteImage.path": "${projectRoot}/images/${currentFileNameWithoutExt}",
     "pasteImage.namePrefix": "${currentFileNameWithoutExt}_",
     "pasteImage.insertPattern": "<img src=\"/images/${currentFileNameWithoutExt}/${imageFileName}\" width=\"80%\"/>",
     "pasteImage.forceUnixStyleSeparator": true,
     "pasteImage.showFilePathConfirmInputBox": true,
-    "pasteImage.filePathConfirmInputBoxMode": "onlyName"
+    "pasteImage.filePathConfirmInputBoxMode": "onlyName",
+    "idf.currentSetup": "/Users/viniu/.espressif/v5.4.3/esp-idf"
 }
