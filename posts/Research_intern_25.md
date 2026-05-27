@@ -27,15 +27,21 @@ thumbnail: Research_intern_25/Research_intern_25_1.png
 
 음성 신호는 32ms씩 Windowing하고, FFT하여 음성을 걸러내는데 주로 사용되는 Mel-filter를 통과하도록 설계되었다. 추출된 Magnitude 값은 Rate Coding을 통해서  Spike Train으로 변환되어 SNN의 입력으로 사용했고, 모델은 snnTorch를 활용하여 LIF 뉴런 기반의 Fully Connected 레이어 구조로 설계했다. ANN 학습 후 가중치를 변환하는 방식과 SNN 직접학습 두가지의 학습 방법이 있는데, SNN 직접학습을 위해서 역전파 과정에서 Surrogate Gradient 학습법을 적용하였다.
 
+나는 이 모든 과정을 노트북 한 대를 가지고 수행했는데, 매번 학습 중인 노트북을 덮으면, 발열이 너무 심해 노트북을 열고 이곳 저곳 돌아다니며 학습을 시켰던 기억이 있다. 이 이후 노트북의 성능이 크게 떨어져서 이 프로젝트를 통해 탄 상금으로 새 맥북 에어를 구매하였다..👍
+
 ### Quantization
 
 PC 환경에서 학습된 Float32 가중치를 FPGA에 포팅하기 위해 INT8로 변환하는 과정이 필요했는데, 여타 NPU들은 Quantization + Quantization 전·후 모델의 성능 비교 및 평가를 위한 NN tool들을 제공하지만, FPGA도 모델도 모두 커스텀이었기 때문에 직접 Quantization 후 도출값을 비교하였다. 이때, Quantization으로 인해 하락하는 정확도 보정을 위해 QAT를 적용하였다.
 
 ### Verilog 사용 SNN 가속기 하드웨어 아키텍처 설계
 
+
+
 Python으로 구성된 모델 아키텍처를 Verilog로 재구성하였다. 초기 계획은 위 이미지처럼 음성의 전처리부도 FPGA상에 구현하는 것이었기 때문에 음성을 받아와 FFT 하는 모듈을 설계하였다. 이후 SNN 모델과 LIF 뉴런 레이어 들을 모두 verilog 모듈로 구현하고, UART 통신과 LED를 통해 FPGA상에서 타겟 키워드의 검출 결과를 PC로 재전송하도록 모듈을 구성하였다.
 
 중간중간 TestBench를 통해 개별 모듈의 정상 동작을 확인하였으며, 데이터 전처리를 담당하는 Top module과 뉴런 레이어를 구성하는 Top module 각각의 중간 확인을 마친 상태라 문제 없이 끝날 것으로 생각되었다. 하지만, 모든 모듈을 하나의 Top Module로 합치는 과정에서 문제가 생겼다. Top Module에서 Clock을 준수하는 Layout 합성이 불가능했다. Pipe lining을 통해 연산 유닛의 동시사용을 최소화하는 등의 여러 노력을 하였으나, 학부생 연구인턴 마감일이 다가와 결국 PC에서 음성 전처리를 수행한 후 결과로 나온 Spike Train을 FPGA로 전송하면 FPGA 상에서는 Spike Train을 가지고 가중치를 통과하는 SNN Layer 연산만을 수행하도록 재구성하였다.
+
+
 
 ### 결과 및 소회
 
