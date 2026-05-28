@@ -19,10 +19,7 @@ pinned: true
     - **Version2** - Raspberry PI 기반의 프로젝트 (QR 다운로드 링크를 포함)
 - 중앙대학교 컴퓨터 하드웨어 동아리 CECOM 내에서 진행된 프로젝트
 
-| Version | What I Did | Github |
-| --- | --- | --- |
-| 1.0 | **PM, 3D-Modeling, ESP-32 CAM, Bluetooth** | **None** |
-| 2.0 | **PM, ESP32 Trigger** | https://github.com/yymin1022/CECOM4CUT |
+[bookmark:https://github.com/yymin1022/CECOM4CUT]
 
 
 ### ⚙ 관련 기술 및 사용 툴

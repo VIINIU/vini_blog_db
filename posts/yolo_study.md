@@ -19,7 +19,7 @@ pinned : true
 
 🚩 최고의 자료 그냥 끝까지 읽어보기
 
-[**🔗제발 이걸 봐주세요. .**](https://www.slideshare.net/slideshow/ss-79607172/79607172#3)
+[bookmark:https://www.slideshare.net/slideshow/ss-79607172/79607172#3]
 
 - Convolution filter
 

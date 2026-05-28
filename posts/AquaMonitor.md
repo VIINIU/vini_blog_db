@@ -34,8 +34,8 @@ thumbnail: AquaMonitor/AquaMonitor_1.jpg
 
 ### 📄 관련 자료
 ---
-| **Application Github** | https://github.com/yymin1022/AquaMonitor_Android |
-| --- | --- |
+
+[bookmark:https://github.com/yymin1022/AquaMonitor_Android]
 
 
 <div class="img-row">
