@@ -6,7 +6,7 @@ author: VINI
 category: Embedded & IoT
 project: CECOM4CUT
 overview: true
-thumbnail: /Cecom4cuts/Cecom4cuts_1.jpg
+thumbnail: Cecom4cuts/Cecom4cuts_1.jpg
 pinned: true
 ---
 ### ✔ CECOM4CUT 이란
