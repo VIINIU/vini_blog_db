@@ -10,6 +10,8 @@ pinned: true
 
 ---
 
+[bookmark:https://www.telechips.com/]
+
 - **‘26 Winter Semester (2026.01)**
 - Telechips 사에서 중앙대학교 차세대 반도체 혁신융합대학 사업부를 통해 모집한 1개월 인턴쉽에 참여
 - Telechips의 Topst 보드 3종 (AI-G, D3-G, VCP-G)을 메뉴얼을 따라 브링업
@@ -38,6 +40,7 @@ pinned: true
 
     한국어 버전보다는 영어버전이 약간 더 디테일하다.
     Quick 가이드를 보고 브링업한 이후에 모르는 게 생기면 유저가이드 보는 것을 추천!
+
 
 
 ### 📖 보드 Bring-Up
@@ -243,3 +246,4 @@ BT RC카의 코드 스터디를 내가 먼저 탐구하고 다른 인턴들에�
     <img src="/images/Telechips_Internship/Telechips_Internship_6.png"  width="33%"/>
     <img src="/images/Telechips_Internship/Telechips_Internship_7.png"  width="33%"/>
 </div>
+
