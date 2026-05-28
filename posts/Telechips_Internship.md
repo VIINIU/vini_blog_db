@@ -23,20 +23,20 @@ pinned: true
 
 - TOPST 커뮤니티
 
-    [🔗 TOPST 커뮤니티](https://community.topst.ai/)
+    [bookmark:https://community.topst.ai/]
 
     TOPST 보드가 다른 개발보드에 비해 용례가 적어 참고할 자료가 많지 않았는데, 커뮤니티에 질문을 올리면 해당 보드의 디테일한 부분들을 현직자들이 답변을 해준다!
 
 - TOPST Education 자료 깃허브 레포지토리
 
-    [🔗 TOPST Education](https://github.com/topst-development/Education.git)
+    [bookmark:https://github.com/topst-development/Education.git]
 
     Telechips TOPST 사업부에서 진행하는 TOPST 보드 활용 교육의 다양한 자료들을 그대로 공개하고 있다!
     메뉴얼에 적혀있지 않은 디테일한 개념들이 적혀있어 참고하기 좋다!
 
 - TOPST 공식 Documentation
 
-    [🔗 TOPST Docs](https://topst.ai/tech/docs)
+    [bookmark:https://topst.ai/tech/docs]
 
     한국어 버전보다는 영어버전이 약간 더 디테일하다.
     Quick 가이드를 보고 브링업한 이후에 모르는 게 생기면 유저가이드 보는 것을 추천!
@@ -109,7 +109,7 @@ Telechips의 Github에 올라와있는 meta-topst라는 TOPST Linux SDK image를
     AI-G 역시 D3-G와 같이 OS를 구워주고 부팅을 시켰다. AI-G 보드는 차량용 NPU가 탑재된 TOPST 개발보드이다. 
     이 보드에 모델을 Quantize해서 올릴 수 있도록 Telechips에서 제공하는 Toolkit이 tc-nn-toolkit인데, 자세한 사항은 아래 링크에서 확인할 수 있다.
 
-    [🔗 NPU Toolkit](https://topst.ai/tech/docs?page=Single+Board+Computer/G+Model/AI-G/Software/2.+TOPST+AI-G+NPU+toolkit.md)
+    [bookmark:https://topst.ai/tech/docs?page=Single+Board+Computer/G+Model/AI-G/Software/2.+TOPST+AI-G+NPU+toolkit.md]
 
     지원하는 네트워크는  ONNX(PyTorch), TF-Lite, CFG(Darknet) 세가지이다.
     네트워크 파일을 후처리용 변수, normalization용 변수 등을 지정해서 .enlight 파일로 변환한다.
@@ -203,7 +203,7 @@ D3-G의 제어 코드의 모든 Thread에 대해서 순서대로 설명해보도
         1차선이나 3차선에서 정면에만 장애물이 있을 경우, 차선이 남아있는 쪽으로 즉시 회피 기동을 하도록 목표 조향각(target_steer)을 업데이트한다.
 
 코드는 아래 깃허브를 통해 직접 확인할 수 있다.
-[🔗 Telechips internship GITHUB](https://github.com/VIINIU/topst_internship)
+[bookmark:https://github.com/VIINIU/topst_internship]
 
 
 ### 💫 프로젝트를 마무리하며 느낀점
