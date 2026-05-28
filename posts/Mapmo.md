@@ -1,6 +1,6 @@
 ---
 
-title : Mapmo 위치 기반 메모 연동 하드웨어 키링 개발
+title : Mapmo 위치 기반 메모 키링
 date : 2026-03-25
 category : Embedded & IoT
 project: Mapmo
