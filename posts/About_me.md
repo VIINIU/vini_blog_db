@@ -3,12 +3,12 @@
 title:  "About Me"
 date:   2026-05-22
 category: About Me
-thumbnail: About_me/About_me_1.webp
+thumbnail: About_me/About_me.png
 
 project:
 ---
 <span style="display:inline-flex; align-items:center;">
-  <img src="/images/About_me/About_me_1.webp" width="30%" style="border-radius:100%;"> 
+  <img src="/images/About_me/About_me.png" width="30%" style="border-radius:100%;"> 
   Hello! Nice to meet you. <br/> 
   I am Yubin Seo, an undergraduate student who loves taking on new challenges. <br/> 
   This blog is my external memory 💾 documenting my studies, projects, and daily life. If you'd like to know more about my professional background, please download my Resume from the sidebar ٩(๑˃̵ᴗ˂̵๑)۶<br/><br/>
