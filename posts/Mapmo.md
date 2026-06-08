@@ -4,8 +4,8 @@ title : Mapmo 위치 기반 메모 키링
 date : 2026-03-25
 category : Embedded & IoT
 project: Mapmo
-pinned : true
 thumbnail: Mapmo/Mapmo_1.jpeg
+dumb: true
 ---
 ### ✔ 프로젝트 개요: Map your memo
 

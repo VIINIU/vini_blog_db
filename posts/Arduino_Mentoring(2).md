@@ -5,6 +5,7 @@ date: 2024-10-15
 category: Embedded & IoT
 thumbnail : Arduino_Mentoring(2)/Arduino_Mentoring(2)_1.jpg
 project: Study
+dumb: true
 ---
 ### 멘토링 회차별 Summary 3-5회차
 

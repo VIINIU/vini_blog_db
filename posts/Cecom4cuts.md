@@ -5,9 +5,8 @@ date: 2024-10-13
 author: VINI
 category: Embedded & IoT
 project: CECOM4CUT
-overview: true
 thumbnail: Cecom4cuts/Cecom4cuts_1.jpg
-pinned: true
+dumb: true
 ---
 ### ✔ CECOM4CUT 이란
 

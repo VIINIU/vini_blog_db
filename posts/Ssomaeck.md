@@ -6,6 +6,7 @@ category: 3D Modeling & Design
 project: 쏘맥제조기
 overview: True
 thumbnail: Ssomaeck/Ssomaeck_1.jpg
+dumb: true
 ---
 ## 부제 : 유용민군 졸업선물 프로젝트
 
