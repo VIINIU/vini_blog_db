@@ -4,7 +4,7 @@ title : NPU 세미나 내용 정리
 date : 2026-05-21
 category : AI & Deep Learning
 project : Internship
-pinned : true
+pinned : True
 thumbnail: seminar_npu/seminar_npu_1.png
 ---
 ---

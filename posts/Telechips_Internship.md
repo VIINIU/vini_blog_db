@@ -4,7 +4,7 @@ title:  "Telechips Topst Internship"
 date:   2026-02-06
 category: Linux & OS
 project: Internship
-pinned: true
+pinned : True
 ---
 ## 💬 Telechips Topst 부서 인턴쉽 수기
 
