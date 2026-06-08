@@ -3,7 +3,6 @@ title:  "About Me"
 date:   2026-05-22
 category: About Me
 thumbnail: About_me/About_me.png
-project:
 ---
 
 <span style="display:inline-flex; align-items:center;">
