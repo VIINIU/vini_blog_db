@@ -4,7 +4,7 @@ title : Research | FPGA Based WWS System
 date : 2026-01-20
 category : AI & Deep Learning
 project: Research
-pinned : False
+pinned : True
 thumbnail: Research_intern_25/Research_intern_25_1.png
 ---
 
