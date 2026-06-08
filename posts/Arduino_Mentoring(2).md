@@ -1,11 +1,11 @@
 ---
 
-title:  Arduino Mentoring ( 2 ) w.ESP32
+title:  Arduino Mentoring ( 2 ) - 회전초밥 기계 만들기
 date: 2024-10-15
 category: Embedded & IoT
 thumbnail : Arduino_Mentoring(2)/Arduino_Mentoring(2)_1.jpg
 project: Study
-dumb: true
+dumb: True
 ---
 ### 멘토링 회차별 Summary 3-5회차
 

@@ -5,7 +5,7 @@ date : 2026-03-25
 category : Embedded & IoT
 project: Mapmo
 thumbnail: Mapmo/Mapmo_1.jpeg
-dumb: true
+dumb: True
 ---
 ### ✔ 프로젝트 개요: Map your memo
 
