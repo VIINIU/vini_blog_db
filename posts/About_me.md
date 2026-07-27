@@ -24,7 +24,7 @@ project:
   - Studied GPU utilization optimization for Large Language Model (LLM) serving under the supervision of Prof. Cheolho Hong.
 - **Seoul National University | Undergraduate Intern** (Sep 2025 – Dec 2025)
   - Participated in the Next-generation Semiconductor Convergence University credit exchange program.
-  - Designed and implemented a low-power [FPGA-based Spiking Neural Network (SNN) Wake-Word Spotting System](https://viniu.info/post/snn_wws) under the supervision of Prof. Wookyung Sun.
+  - Designed and implemented a low-power [FPGA-based Spiking Neural Network (SNN) Wake-Word Spotting System](https://viniu.info/post/Research_intern_25)under the supervision of Prof. Wookyung Sun.
 - **[ESP32 (Arduino) Mentoring | Mentor](https://viniu.info/post/Arduino_Mentoring(1))** (Sep 2024 – Dec 2024)
   - Taught ESP32-based hardware control and firmware development for club members through toy projects.
 
