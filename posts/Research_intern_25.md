@@ -17,8 +17,13 @@ thumbnail: Research_intern_25/Research_intern_25_1.png
 
 ### 프로젝트 시작 배경
 
-학부생 연구인턴 프로그램이 시작되면서, SNN과 FPGA의 사용에 대한 전반적인 부분을 공식 문서와 관련 논문을 통해 학습하였고, 이후 각자 한 학기동안 연구할 연구 주제를 잡아 프로젝트를 진행하는 형식으로 진행되었습니다. SNN의 저전력, Event-Driven한 특성을 고려했을 때, 이 두 특성을 모두 활용하기 위해서는 전력 사용이 제한되는 엣지 디바이스 환경에서 항상 켜져있는 기능인 음성 에이전트 호출 키워드를 걸러내는 역할을 SNN을 사용하여 하드웨어상에서 구현한다면, 전력 사용을 최소화하면서도 빠르게 키워드를 걸러낼 수 있을 것이라고 판단하였다.
-이런 과정을 통해 SNN을 베이스로하는 Wake-Word Spotting 시스템 구현을 시작하게 되었다.
+'25-2학기 학교에 복학하면서 차세대반도체 융합혁신대학의 학점교류 프로그램을 참여하게 되었고, 선우경 교수님의 학부생 연구인턴 프로그램에 참여하여 SNN을 처음 접하게 되었다. 학부생 연구인턴의 대주제는 SNN과 FPGA였고, 나는 SNN 활용 Wake-word Spotting(이하 WWS) System을 주제로 프로젝트를 진행하였다.
+
+SNN은 Spike Neural Network의 준말로 생체 신호를 모방하여 연속된 값이 아닌 불연속적인 Spike 신호를 활용하여 인공신경망을 구현하는 기술이다. 다른 신경망들과 달리 SNN은 Event-Driven 처리가 기본 IDEA이기 때문에 낮은 Power Consumption과 Temporal한 DATA에 강하다는게 장점이다. Power Consumption이 낮아 늘 켜져있는 시스템에 그 중에서도 Temporal한 신호를 다루는 음성 시스템에 SNN을 활용하면 좋겠다는 생각을 하게되었다. 그렇게 전체 시스템을 깨우는 음성 명령에 적용하면 좋겠다는 생각에 이르게 되었다.
+
+내가 생각한 SNN WWS 시스템의 활용가능성은 스마트폰이나 이어버드, 무선 헤드폰과 같이 효율적인 Power 사용이 중요한 모바일 기기의 'Hey, Siri', 'Ok google', 'Alexa' 와 항상 켜져있어야 하는 호출 키워드 감지 기능에 활용할 수 있는 NPU 등으로 활용하는 것이다~!
+
+암튼 이번 프로젝트에 대한 회고를 시작해보겠다.
 
 ### 데이터 전처리 및 SNN 모델링
 
@@ -39,16 +44,12 @@ Figure 2. System HW Architecture
 
 Python으로 구성된 모델 아키텍처를 Verilog로 재구성하였다. 초기 계획은 위 이미지의 음성의 전처리부도 FPGA상에 구현하는 것이었기 때문에 음성을 받아와 FFT 하는 모듈을 설계하였다. 이후 SNN 모델과 LIF 뉴런 레이어 들을 모두 verilog 모듈로 구현하고, UART 통신과 LED를 통해 FPGA상에서 타겟 키워드의 검출 결과를 PC로 재전송하도록 모듈을 구성하였다.
 
- <div class="img-row">
-    <img src="/images/Research_intern_25/Research_intern_25_3.png" 
-    width="49%"/>
-    <br/>
-    Figure 3. Verilog SNN Modules
-    <img src="/images/Research_intern_25/Research_intern_25_4.png" 
-    width="49%"/>
-    <br/>
-    Figure 4. (도입되지 못한) Verilog SNN 오디오 전처리 모듈..ㅠㅠ
-</div>
+<img src="/images/Research_intern_25/Research_intern_25_3.png" 
+width="49%"/>
+Figure 3. Verilog SNN Modules
+<img src="/images/Research_intern_25/Research_intern_25_4.png" 
+width="49%"/>
+Figure 4. (도입되지 못한) Verilog SNN 오디오 전처리 모듈..ㅠㅠ
 
 중간중간 TestBench를 통해 개별 모듈의 정상 동작을 확인하였으며, 데이터 전처리를 담당하는 Top module과 뉴런 레이어를 구성하는 Top module 각각의 중간 확인을 마친 상태라 문제 없이 끝날 것으로 생각되었다. 하지만, 모든 모듈을 하나의 Top Module로 합치는 과정에서 문제가 생겼다. Top Module에서 Clock을 준수하는 Layout 합성이 불가능했다. Pipe lining을 통해 연산 유닛의 동시사용을 최소화하는 등의 여러 노력을 하였으나, 학부생 연구인턴 마감일이 다가와 결국 PC에서 음성 전처리를 수행한 후 결과로 나온 Spike Train을 FPGA로 전송하면 FPGA 상에서는 Spike Train을 가지고 가중치를 통과하는 SNN Layer 연산만을 수행하도록 재구성하였다.
 
