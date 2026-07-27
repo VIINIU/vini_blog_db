@@ -1,8 +1,7 @@
 ---
-
-title : YOLO Study
-date : 2025-08-13
-category : AI & Deep Learning
+title: CNN 공부
+date: 2025-08-13
+category: AI & Deep Learning
 project: Study
 ---
 ## YOLO 공부

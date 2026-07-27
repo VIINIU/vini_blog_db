@@ -1,7 +1,6 @@
 ---
-
-title:  "Verilog HDL Group Study"
-date:   2025-04-12
+title: Verilog HDL 그룹스터디
+date: 2025-04-12
 category: Hardware Design
 project: Study
 thumbnail: Verilog_Study/Verilog_Study_1.png

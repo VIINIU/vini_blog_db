@@ -1,10 +1,9 @@
 ---
-
-title : NPU 세미나 내용 정리
-date : 2026-05-21
-category : AI & Deep Learning
-project : Internship
-pinned : True
+title: NPU란 무엇인가..
+date: 2026-05-21
+category: AI & Deep Learning
+project: Internship
+pinned: true
 thumbnail: seminar_npu/seminar_npu_1.png
 ---
 ---
@@ -100,7 +99,8 @@ TPU v1이 대규모 행렬 곱셈을 극도로 낮은 전력과 높은 처리량
 
 상단에서 Weight가 아래로, 좌측에서 입력 데이터가 오른쪽으로 흐르고, 연산 결과인 Partial Sum은 아래 Accumulator로 내려갑니다.
 
-첫째, Weight Stationary입니다. Weight는 맨 처음 한 번만 각 PE의 레지스터로 로드되고, 이후 입력 데이터가 흘러가면서 같은 weight를 계속 재사용된다. SRAM 읽기 한 번이 수백 pJ 정도의 에너지를 소모하기에 weight읽는 횟수를 최소화하면 Energy의 사용이 크게 줄어듭니다.
+첫째, Weight Stationary 
+Weight는 맨 처음 한 번만 각 PE의 레지스터로 로드되고, 이후 입력 데이터가 흘러가면서 같은 weight를 계속 재사용된다. SRAM 읽기 한 번이 수백 pJ 정도의 에너지를 소모하기에 weight읽는 횟수를 최소화하면 Energy의 사용이 크게 줄어들게 된다.
 
 둘째로 MMU 안에서 아래방향으로 Partial Sum이 순차적으로 흐르는 Diagonal Wavefront입니다. 클록 사이클마다 256개의 Partial Sum이 동시에 생성되어 Accumulator로 흘러가고, 소프트웨어 입장에서는 Transparent하게 256개가 동시에 처리되는 것으로 보이게 된다.
 
