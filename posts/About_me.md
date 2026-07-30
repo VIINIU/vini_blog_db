@@ -17,7 +17,6 @@ project:
 ---
 - **[Chung-Ang University](https://www.cau.ac.kr/index.do)** - School of Electrical and Electronics Engineering (B.S.)
   - Mar 2022 – Feb 2027 (Expected) | Seoul, Korea
-  - https://www.figma.com/deck/n4ti1AbqdyhXcFjQm0K2Tk
 
 ### 🔬 Research & Mentoring Experience
 ---
