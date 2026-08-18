@@ -20,7 +20,7 @@ project:
 
 ### 🔬 Research & Mentoring Experience
 ---
-- **[Chung-Ang University SSLAB| Undergraduate Intern](https://sites.google.com/site/ssatcau)** (Mar 2026 – Present)
+- **[Chung-Ang University SSLAB | Undergraduate Intern](https://sites.google.com/site/ssatcau)** (Mar 2026 – Present)
   - Studied GPU utilization optimization for Large Language Model (LLM) serving under the supervision of Prof. Cheolho Hong.
 - **Seoul National University | Undergraduate Intern** (Sep 2025 – Dec 2025)
   - Participated in the Next-generation Semiconductor Convergence University credit exchange program.
@@ -30,7 +30,7 @@ project:
 
 ### 📁 Selected Projects
 ---
-- **[MINI-V Android : Custom LineageOS](https://dev-lr.com/blog/00035)** | May 2026 – Present
+- **[MINI-V Android : Custom LineageOS](https://useful-min.dev/blog/260522-miniv-android-intro)** | May 2026 – Present
   - Exploring system-level integration of a compact model, leveraging the Hexagon NPU through a vendor-side inference service shared across applications.
 - **[Mapmo (Map your memo): Location-based Todo Alert Keyring](https://viniu.info/post/Mapmo)** | Feb 2026 – Mar 2026
   - **Role | PM & Firmware/Hardware Developer**
