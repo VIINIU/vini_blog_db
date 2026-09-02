@@ -6,8 +6,9 @@ project: Android OS
 thumbnail: MINI-V_Android/MINI-V_Android.png
 ---
 
----
+<img src="/imagesMINI-V_Android/MINI-V_Android.png" width "100%">
 
+---
 - AOSP에 기반을 둔 커스텀 안드로이드 오픈소스인 Lineage OS에 Qualcomm 기반의 LLM 추론 기능을 HAL 레벨에서 구현한 커스텀 Android
 - Device
 	- Xiaomi 13 (Code Name: fuxi)
@@ -45,7 +46,7 @@ OS를 잘 구워삶으면 럭키 Rabbit r1이 될 수 있지 않을까? 라는 �
 
 ### 기존 Android Application AI Workload
 
-<img src="/images/MINI-V_Android/Pasted image 20260901142854.png" width="50%"> 
+<img src="/images/MINI-V_Android/Pasted image 20260901142854.png" width="100%"> 
 Figure 1. 기존 Android System의 AI 추론 흐름
 
 기존 Android System에서 Application의 AI Model 사용 방식은 크게 두가지가 존재한다. 첫째로 Application의 Assets에 포함시켜 APK 파일에 모델을 직접 미리 넣어 배포하는 방식과 두번째로 AI 기능 활성화 시, 사용자 동의 하에 서버로부터 모델을 다운로드 받는 방식이다. 이 두 가지 방식 모두 문제점을 발생 시키게 된다. 첫번째 방식의 경우 (1) Application 배포파일의 사이즈가 커진다는 문제점을 발생시키는데, 배포파일의 사이즈가 커지면, Application의 유지와 보수를 담당하는 개발사 입장에서 낮은 설치 전환률, 데이터 부하, 지원 기기 축소등의 부담이 증가한다. 두번째 방식을 채택하여 (2) AI 기능을 활성화 할 때에만 사용자 동의 하에 서버로부터 모델을 다운로드 받는 방식은 사용자 동의 UX 구축에 어려움을 준다.
@@ -66,7 +67,7 @@ Scaling LLM Test-Time Compute with Mobile NPU on Smartphones[^1]에 따르면, M
 
 ### Android Operating System Layer
 
-<img src="/images/MINI-V_Android/Pasted image 20260901151429.png|262" width="50%"> 
+<img src="/images/MINI-V_Android/Pasted image 20260901151429.png" width="50%"> 
 Figure 2. Android System Partition
 
 안드로이드 시스템은 AOSP(Android Open-Source Preject)[^8]의 구글 소유의 소스코드에 기반을 둔 운영체제이다.
@@ -85,7 +86,7 @@ Figure 2. Android System Partition
 ### Overveiw
 MINI-V Android OS의 구현체는 크게 두가지로 나누어져 존재하도록 디자인하였다. 첫번째는 System 영역에 구현되는 MINI-V AI Service(Framework)이고, 두번째는 Vendor 영역에 구현되는 MINI-V AI Daemon이다. 추가로 정상적인 동작 확인을 위해 MINI-V AI Service를 사용하는 MINI-V Chat이라는 예시 Application을 추가하였다.
 
-<img src="/images/MINI-V_Android/Pasted image 20260901151709.png|611" width="50%"> 
+<img src="/images/MINI-V_Android/Pasted image 20260901151709.png" width="100%"> 
 Figure 3. MINI-V Android OS의 전체 Design
 
 Vendor 파트의 경우 MINI-V AI Daemon 하위에 위치하는 실제 추론 구현체를 두가지 방식으로 구현했는데 첫번째는 CPU만 추론 엔진으로 활용하는 버전과 CPU와 NPU를 사용하는 버전이다. NPU 구조가 다르거나 NPU가 포함되어 있지 않은 기기에서도 MINI-V Android OS의 구현체를 Embedding하기 쉽도록 하기 위하여 두가지 버전으로 나누어 구현을 진행했다. CPU만 활용하는 Vendor 구현체인 `LLMEngine` 의 경우 `llama.cpp`[^5]를 NPU와 CPU를 모두 활용하는 Vendor 구현체의 경우 `llama.cpp-npu`[^6]를 기반으로 구현하였다.
@@ -94,7 +95,7 @@ Vendor 파트의 경우 MINI-V AI Daemon 하위에 위치하는 실제 추론 �
 
 Motivation에서 언급했던 여러 앱이 서로 다른 모델을 쓰면서 발생하는 Context Switching Overhead를 해결하기 위해 Session이 전환되지 않고 이어지도록 하는 Session Management Logic을 Vendor단에 구현하였다. 앱은 `createSession()`을 인자 없이 호출하고, 서비스가 내부 카운터로 발급한 세션ID를 돌려받는다. 이 ID는 이후 모든 요청(`inferStream()`, `cancel()`, `destroySession()`)에 실려 벤더 엔진까지 전달되며, 매 호출마다 세션을 새로 발급하던 기존 방식 대신 여러 턴에 걸친 대화를 하나의 세션으로 유지할 수 있도록 설계했다.
 
-<img src="/images/MINI-V_Android/Pasted image 20260901154616.png" width="50%"> 
+<img src="/images/MINI-V_Android/Pasted image 20260901154616.png" width="100%"> 
 Figure 4. MINI-V Android OS의 Session Management Logic
 
 엔진 레벨에서는 동시에 유지 가능한 세션 수가 무한정 늘어나는 것을 막기 위해 Hot/Cold 2단 구조로 세션을 관리하도록 디자인하였다. Hot 세션은 접근이 빠른 RAM에, Cold 세션은 비교적 접근이 느린 Disk에 보관되도록 구성하였다. `LLMEngine` 에서는 Hot은 용량을 기반으로 미리 설정한 용량을 넘어서면, Hot에서 가장 오래된 세션이 Cold 영역으로 넘어가는 정책으로, Cold 영역은 보관 Session의 개수 한도를 넘으면 가장 오래된 세션부터 Kill하는 LRU 정책으로 관리하도록 디자인하였다.
@@ -142,12 +143,12 @@ allow system_server hal_miniv_ai_server:binder { call transfer };
 
 디바이스와 연결된 컴퓨터에서 adb tool을 이용해 기기의 터미널 명령어로 `hal_test_cli` 를 실행해보면 아래 그림과 같이 세션이 잘 만들어지고, 추론이 설계한 NpuLLMEngine을 통해 정상적으로 수행되는 것을 확인할 수 있다.
 
-<img src="/images/MINI-V_Android/스크린샷 2026-09-01 오후 3.43.23.png|343" width="50%"> 
+<img src="/images/MINI-V_Android/스크린샷 2026-09-01 오후 3.43.23.png" width="80%"> 
 Figure 5. adb tool을 통해 cli로 접근하여 NPU를 활용한 추론을 진행한 모습
 
 디바이스에 구현한 예시 Application으로 추론을 수행한 모습은 아래와 같다.
 
-<img src="/images/MINI-V_Android/스크린샷 2026-09-01 오후 4.54.01.png|237" width="50%"> 
+<img src="/images/MINI-V_Android/스크린샷 2026-09-01 오후 4.54.01.png" width="50%"> 
 Figure 6. Application을 통해 추론을 수행한 모습
 
 실제로 추론이 실행되는 부분의 스크린 영상 녹화본은 [추론 동영상 링크](https://youtube.com/shorts/Q6Vg0jByNgI?feature=share)를 통해 확인할 수 있다.
