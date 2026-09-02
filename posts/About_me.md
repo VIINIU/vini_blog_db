@@ -30,7 +30,11 @@ project:
 
 ### 📁 Selected Projects
 ---
-- **[MINI-V Android : Custom LineageOS](https://useful-min.dev/blog/260522-miniv-android-intro)** | May 2026 – Present
+- WattInfer: Phase-Aware DVFS Management on NPU Board (Rockchip Based) | Aug 2026 - Present (Ongoing)
+   * Role | PM & Kernel Driver/Hardware Developer
+   * Designing and implementing a phase-aware NPU devfreq governor that extends the Rockchip RKNPU kernel driver to schedule clock/voltage per VLM inference phase (vision encoding, prefill, decode).
+   * Designing a custom INA228-based power measurement PCB to capture ground-truth energy data, replacing software-estimated power with direct hardware measurement.
+- **[MINI-V Android : Custom LineageOS](https://useful-min.dev/blog/260522-miniv-android-intro)** | May 2026 – Present (Ongoing)
   - Exploring system-level integration of a compact model, leveraging the Hexagon NPU through a vendor-side inference service shared across applications.
 - **[Mapmo (Map your memo): Location-based Todo Alert Keyring](https://viniu.info/post/Mapmo)** | Feb 2026 – Mar 2026
   - **Role | PM & Firmware/Hardware Developer**
@@ -42,16 +46,16 @@ project:
   - Telechips Internship
   - Real-time object detection and lane following using YOLOv8 and OpenCV.
   - Optimized AI model inference on Topst NPU(AI-G) board.
-- **[FPGA-based SNN Wake-Word Spotting System](https://viniu.info/post/snn_wws)** | Sep 2025 – Dec 2025
+- **[FPGA-based SNN Wake-Word Spotting System](https://viniu.info/post/Research_intern_25)** | Sep 2025 – Dec 2025
   - **Role | Individual Project**
   - Supervised by Prof. Wookyung Sun.
   - Designed and implemented a low-power wake-up call detection system using SNN architecture on an FPGA.
   - Awarded 3rd Place (Encouragement Award) at the Semiconductor Innovation Festival (SIF 2026).
 - **[VINIU.info : Personal Tech Blog Development](https://viniu.info)** | Aug 2025
   - **Role | Individual Project**
-  - Built and deployed a personal technical blog [Here](https://viniu.info) to serve as an archive for engineering studies and projects.
+  - Built and deployed a personal technical blog [Right Here](https://viniu.info) to serve as an archive for computer studies and projects.
   - Designed responsive UI/UX from scratch using Figma and implemented it using Next.js for optimized performance and SEO.
-  - Web Server Supported by [Yongmin Yoo](https://dev-lr.com/about/Useful)'s NAS
+  - Web Server Supported by [Yongmin Yoo](https://useful-min.dev/about/Useful)'s NAS (Thank YOO)
 - **[Aquamonitor: Beverage Intake Tracker](https://viniu.info/post/AquaMonitor)** | May 2024 – Oct 2024
   - **Role | PM & Hardware Developer, PCB Layout, 3D Modeling**
   - Weight-based beverage intake recording service.
