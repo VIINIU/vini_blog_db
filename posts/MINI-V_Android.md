@@ -5,7 +5,6 @@ category: Android, LLM
 project: Android OS
 thumbnail: MINI-V_Android/MINI-V_Android.png
 ---
-### 프로젝트 개요
 
 ---
 
