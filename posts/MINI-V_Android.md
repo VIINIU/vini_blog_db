@@ -9,7 +9,6 @@ thumbnail: MINI-V_Android/MINI-V_Android.png
 ### 프로젝트 개요
 
 ---
-
 - AOSP에 기반을 둔 커스텀 안드로이드 오픈소스인 Lineage OS에 Qualcomm 기반의 LLM 추론 기능을 HAL 레벨에서 구현한 커스텀 Android
 - Device
 	- Xiaomi 13 (Code Name: fuxi)
@@ -40,7 +39,7 @@ OS를 잘 구워삶으면 럭키 Rabbit r1이 될 수 있지 않을까? 라는 �
 그런 마음을 품고 있을 때.. 우연하게 [Scaling LLM Test-Time Compute with Mobile NPU on Smartphones](https://arxiv.org/abs/2509.23324) 이런 논문을 봤고,  👩🏻‍💻 ◦ ₒ ° ๐ ○ (NPU를 내맘대로 조물조물 할 수 있구나!) 라는 착각과 함께 목표를 세웠다.
 이렇게 야심차게 시작해놓고, 프로젝트 중반까지 CPU 백엔드로 구현한다고 논문 펼쳐보지도 않음..
 
-그렇게 목표를 설정한 유용민군과 나는 Scaling LLM...(중략) 논문에 나온 Snapdragon 8 Elite Gen 2를 가지고 있고 Bootloader Unlock이 쉬운 Xiaomi 13을 구매했고, 본격적으로 개발을 시작했다.
+그렇게 목표를 설정한 유용민군과 나는 Scaling LLM...(중략) 논문에 나온 Snapdragon 8 Elite Gen 2가 탑재된 Bootloader Unlock이 쉬운 Xiaomi 13을 구매했고, 본격적으로 개발을 시작했다.
 
 
 ## Background and Motivation

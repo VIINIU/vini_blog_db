@@ -20,7 +20,9 @@ project:
 
 ### 🔬 Research & Mentoring Experience
 ---
-- **[Chung-Ang University SSLAB | Undergraduate Intern](https://sites.google.com/site/ssatcau)** (Mar 2026 – Present)
+- **[Yonsei University MOBED LAB | Underfraduate Intern](https://mobed.yonsei.ac.kr/index.php?mid=Homepage)** (Aug 2026 - Present)
+ - Studing Optimization of AI Workload on Android Mobile System
+- **[Chung-Ang University SSLAB | Undergraduate Intern](https://sites.google.com/site/ssatcau)** (Mar 2026 – Aug 2026)
   - Studied GPU utilization optimization for Large Language Model (LLM) serving under the supervision of Prof. Cheolho Hong.
 - **Seoul National University | Undergraduate Intern** (Sep 2025 – Dec 2025)
   - Participated in the Next-generation Semiconductor Convergence University credit exchange program.
@@ -30,11 +32,11 @@ project:
 
 ### 📁 Selected Projects
 ---
-- WattInfer: Phase-Aware DVFS Management on NPU Board (Rockchip Based) | Aug 2026 - Present (Ongoing)
+- WattInfer: Phase-Aware DVFS Management on NPU Board (Rockchip Based) | Sep 2026 - Present (Ongoing)
    * Role | PM & Kernel Driver/Hardware Developer
    * Designing and implementing a phase-aware NPU devfreq governor that extends the Rockchip RKNPU kernel driver to schedule clock/voltage per VLM inference phase (vision encoding, prefill, decode).
    * Designing a custom INA228-based power measurement PCB to capture ground-truth energy data, replacing software-estimated power with direct hardware measurement.
-- **[MINI-V Android : Custom LineageOS](https://useful-min.dev/blog/260522-miniv-android-intro)** | May 2026 – Present (Ongoing)
+- **[MINI-V Android : Custom LineageOS](https://viniu.info/post/MINI-V_Android)** | May 2026 – Present (Ongoing)
   - Exploring system-level integration of a compact model, leveraging the Hexagon NPU through a vendor-side inference service shared across applications.
 - **[Mapmo (Map your memo): Location-based Todo Alert Keyring](https://viniu.info/post/Mapmo)** | Feb 2026 – Mar 2026
   - **Role | PM & Firmware/Hardware Developer**
@@ -76,8 +78,8 @@ project:
 ---
 - **Blue Lighthouse Samsung Donation Scholarship** (May 2026): Selected as an AI Core Talent for the Blue Lighthouse Samsung Donation Scholarship by the Korea Student Aid Foundation (Spring & Fall 2026).
 - **3rd Place, Encouragement Award** (Jan 2026): [Semiconductor Innovation Festival (SIF 2026)](https://polargate.disu.ac.kr/contest/SIF2026/final?sc=y) for the FPGA-based SNN Wake-Word Spotting System (Awarded a scholarship of KRW 1,800,000).
-- **2nd Place, Excellence Award** (Oct 2024): [IoT Capstone Design Idea Competition 2024](https://abeek.cau.ac.kr/em/view.jsp?sc_board_seq=1&pk_seq=1328), hosted by the Engineering Education Innovation Center of CAU (Aquamonitor).
-- **2nd Place, Excellence Award** (Oct 2023): [IoT Capstone Design Idea Competition 2023](https://abeek.cau.ac.kr/em/view.jsp?sc_board_seq=1&pk_seq=1328), hosted by the Engineering Education Innovation Center of CAU (Navizam).
+- **Excellence Award** (Oct 2024): [IoT Capstone Design Idea Competition 2024](https://abeek.cau.ac.kr/em/view.jsp?sc_board_seq=1&pk_seq=1328), hosted by the Engineering Education Innovation Center of CAU (Aquamonitor).
+- **Excellence Award** (Oct 2023): [IoT Capstone Design Idea Competition 2023](https://abeek.cau.ac.kr/em/view.jsp?sc_board_seq=1&pk_seq=1328), hosted by the Engineering Education Innovation Center of CAU (Navizam).
 - **Linux Master Level 2** (Jan 2025): KAIT (Korea Association for ICT Promotion).
 
 ### 👾 Extracurricular Activities
