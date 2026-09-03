@@ -5,10 +5,12 @@ category: Android, LLM
 project: Android OS
 thumbnail: MINI-V_Android/MINI-V_Android.png
 ---
-### 프로젝트 개요
+## 프로젝트 개요
 
 ---
+
 <img src="/images/MINI-V_Android/MINI-V_Android.png" width "80%">
+
 - AOSP에 기반을 둔 커스텀 안드로이드 오픈소스인 Lineage OS에 Qualcomm 기반의 LLM 추론 기능을 HAL 레벨에서 구현한 커스텀 Android
 - Device
 	- Xiaomi 13 (Code Name: fuxi)
