@@ -1,5 +1,5 @@
 ---
-Title: "MINI-V Android : LLM 모델 내장 안드로이드 OS 커스텀"
+title: "MINI-V Android : LLM 모델 내장 안드로이드 OS 커스텀"
 date: 2026-09-02
 category: Android, LLM
 project: Android OS
