@@ -25,7 +25,7 @@ thumbnail: MINI-V_Android/MINI-V_Android.png
 - Model
 	- Qwen2.5-1.5B 모델을 Int 4-bit, 8-bit로 Mixed Quantization한 모델을 사용했다.
 
-<img src="/images/MINI-V_Android/MINI-V_Android.png" width="80%">
+<img src="/images/MINI-V_Android/MINI-V_Android.png" width="100%">
 
 ### 프로젝트 시작 계기
 
