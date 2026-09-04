@@ -21,7 +21,7 @@ project:
 ### 🔬 Research & Mentoring Experience
 ---
 - **[Yonsei University MOBED LAB | Underfraduate Intern](https://mobed.yonsei.ac.kr/index.php?mid=Homepage)** (Aug 2026 - Present)
- - Studing Optimization of AI Workload on Android Mobile System
+  - Studing Optimization of AI Workload on Android Mobile System
 - **[Chung-Ang University SSLAB | Undergraduate Intern](https://sites.google.com/site/ssatcau)** (Mar 2026 – Aug 2026)
   - Studied GPU utilization optimization for Large Language Model (LLM) serving under the supervision of Prof. Cheolho Hong.
 - **Seoul National University | Undergraduate Intern** (Sep 2025 – Dec 2025)
@@ -36,7 +36,7 @@ project:
    * Role | PM & Kernel Driver/Hardware Developer
    * Designing and implementing a phase-aware NPU devfreq governor that extends the Rockchip RKNPU kernel driver to schedule clock/voltage per VLM inference phase (vision encoding, prefill, decode).
    * Designing a custom INA228-based power measurement PCB to capture ground-truth energy data, replacing software-estimated power with direct hardware measurement.
-- **[MINI-V Android : Custom LineageOS](https://viniu.info/post/MINI-V_Android)** | May 2026 – Present (Ongoing)
+- **[MINI-V Android : Custom LineageOS](https://viniu.info/post/MINI-V_Android)** | May 2026 – Present
   - Exploring system-level integration of a compact model, leveraging the Hexagon NPU through a vendor-side inference service shared across applications.
 - **[Mapmo (Map your memo): Location-based Todo Alert Keyring](https://viniu.info/post/Mapmo)** | Feb 2026 – Mar 2026
   - **Role | PM & Firmware/Hardware Developer**
