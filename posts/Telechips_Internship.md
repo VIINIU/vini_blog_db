@@ -4,8 +4,9 @@ date: 2026-02-06
 category: Linux & OS
 project: Internship
 pinned: true
+thumbnail: Telechips_Internship/Telechips_logo.png
 ---
-## 💬 Telechips Topst 부서 인턴쉽 수기
+# 💬 Telechips Topst 부서 인턴쉽 수기
 
 ---
 
